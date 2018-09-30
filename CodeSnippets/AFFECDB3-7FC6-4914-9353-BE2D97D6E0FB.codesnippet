@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>URLSession</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let url = URL.init(string: "http://api.dev.jjys168.com")
+			var request = NSMutableURLRequest.init(url: url!)
+			request.httpMethod = "POST"
+			//5.设置请求体
+			request.httpBody = "methodName=HuaiyunBaby&amp;version=2&amp;schedule_date=\(self.timeStamp)".data(using: .utf8)
+
+			var dataTask: URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest) { (data, response, error) in
+
+				//if(error == nil){
+				//8.解析数据
+				//说明：（此处返回的数据是JSON格式的，因此使用NSJSONSerialization进行反序列化处理）
+				var dict:NSDictionary? = nil
+				do {
+					dict  = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.init(rawValue: 0)) as! NSDictionary
+				} catch {
+
+				}
+				print("%@",dict)
+				//}
+			}
+			//5.执行任务
+			dataTask.resume()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AFFECDB3-7FC6-4914-9353-BE2D97D6E0FB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swift的网络请求</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Network</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>defineWeakOrStrong</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#define  weakify(x) autoreleasepool{} __weak typeof(x) weak_##x = x;
+#define  strongify(x) autoreleasepool{} __strong typeof(weak_##x)  x = weak_##x;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7C06BD27-D179-41E0-B2B9-569AB7B29A5D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>weak/strong宏定义</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>weak/strong宏定义</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>SizeEXP</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>	NSDictionary *attribute = @{NSFontAttributeName: [UIFont systemFontOfSize:14]};
+
+	NSStringDrawingOptions option = (NSStringDrawingOptions)(NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading);
+
+	CGFloat kwidth =[UIScreen mainScreen].bounds.size.width;
+CGSize size = [_textContent boundingRectWithSize:CGSizeMake(&lt;#宽度#&gt;, HUGE) options:option attributes:attribute context:nil].size;;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2FBD6F2C-A1F1-4BA0-95E9-D005A300C896</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>动态size</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>计算动态高度</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

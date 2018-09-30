@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>nineGrid</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSArray *priceArray = @[@"100",@"500",@"1000",@"1500",@"2000",@"3000"];
+    CGFloat margin = 15.0f;
+    NSInteger num = 3;
+    NSInteger count = priceArray.count;
+    CGFloat buttonW = (KWIDTH - (num+1)*margin)/num;
+    CGFloat buttonH = 50.0f;
+    CGFloat top = 60;
+    CGFloat bottom = 50;
+    for (NSInteger i = 0; i &lt; count; i++) {
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        [button setBackgroundImage:[UIImage imageNamed:@"money_nomal"] forState:UIControlStateNormal];
+        [button setBackgroundImage:[UIImage imageNamed:@"money_selected"] forState:UIControlStateSelected];
+        [button setTitle: priceArray[i] forState: UIControlStateNormal];
+        [button setTitle: priceArray[i] forState: UIControlStateSelected];
+        [button setTitleColor: kTextColor forState: UIControlStateNormal];
+        [button setTitleColor: KWhiteColor forState: UIControlStateSelected];
+        button.tag = i;
+        [button addTarget:self action:@selector(clickItemAction:) forControlEvents:UIControlEventTouchUpInside];
+        if (i == 0) {
+            [self clickItemAction: button];
+        }
+        
+        NSInteger row = i/num;
+        NSInteger col = i%num;
+        button.frame = CGRectMake(margin+col*(buttonW+margin), top+row*(buttonH+margin), buttonW , buttonH);
+        [self addSubview: button];
+        self.height = CGRectGetMaxY(button.frame) + bottom;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DA8858B0-0492-435F-9F3D-5AFE38042BB0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>nineGridCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>九宫格代码例子</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

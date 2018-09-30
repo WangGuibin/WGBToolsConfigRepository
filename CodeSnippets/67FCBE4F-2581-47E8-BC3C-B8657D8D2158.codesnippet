@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>doc_enumshortcut</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+ @enum
+ @abstract &lt;#描述信息#&gt;
+ @constant  &lt;#case0#&gt; &lt;#啥意思#&gt;
+ */
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>67FCBE4F-2581-47E8-BC3C-B8657D8D2158</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>doc_enumshortcut</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>枚举文档的注释</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
