@@ -9,5 +9,5 @@
 
 #### 3. 代码块 `~/Library/Developer/Xcode/UserData/CodeSnippets` 平时收藏的代码块都是存放在这的, 所以换公司换电脑异或是家里公司代码块同步如同此法,把代码块文件放进这里,重新启动`Xcode`即可食用。
 
-
+#### 4. 显示Mac键盘操作动作指令的一个小工具 [前往地址](https://github.com/keycastr/keycastr) 
 
