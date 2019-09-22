@@ -1,5 +1,5 @@
 # WGBToolsConfigRepository
-收集一些效率工具的配置,存放于此
+平时可能会用上的一些效率工具及配置,存放于此 
 
 (基于`Alfred`的`workflows`, `vim`的配置文件,`zsh`的配置文件,`Xcode`主题配置)
 
@@ -18,4 +18,13 @@ a.   [cartool](<https://github.com/steventroughtonsmith/cartool>)   做个轮子
 b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) 这个轮子有人在维护,所以他目前是可以使用的, 傻瓜式的GUI,这个用起来比较爽,支持图片名模糊搜索,找到想要的直接拖拽出来,也可以批量全部导出, 但是唯一的缺点就是拖拽出来的图片.car里面还是会有一份,实际上是拖拽仅仅是拷贝出来的一份而已
 
 #### 6. Xcode热重载插件,提高开发效率的工具`InjectionIII` [使用教程](http://wangguibin.github.io/#/posts/Xcode辅助工具之热重载插件利器) 
+
+#### 7. 在线图片压缩工具[无损压缩工具imageoptim](https://imageoptim.com/mac) 和 [PNG压缩工具](https://tinypng.com/)
+
+#### 8. [json在线格式化工具](https://www.json.cn/) 和 [json转model在线工具](http://modelend.com/)
+
+#### 9. [给定一张1024x1024的大图一键生成app的logo](https://icon.wuruihong.com)
+
+#### 10. [在线绘制ASCi流程图](http://asciiflow.com/) 
+
 
