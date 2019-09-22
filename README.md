@@ -8,7 +8,8 @@
 #### 1. 配置Xcode主题,`CoderWGB Theme.xccolortheme`这个是我配置的,类似于`sublime`的风格, 配置之后肯定不想到了别的电脑上再配置一遍,很浪费时间的,毕竟时间就是命呐 !!!  Xcode主题文件的存放路径就在`~/Library/Developer/Xcode/UserData/FontAndColorThemes/` ,打开找到对应你自己自定义的主题,拷贝出来即可给到别的电脑上使用,也是这个路径. 
 
 #### 2. Xcode真机调试包的路径：`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport` 
-        [调试包资源](https://github.com/iGhibli/iOS-DeviceSupport) 或者 在`github`搜关键词`DeviceSupport` [click me](https://github.com/search?utf8=%E2%9C%93&q=DeviceSupport&ref=simplesearch)
+   [调试包资源](https://github.com/iGhibli/iOS-DeviceSupport) 或者 在`github`搜关键词`DeviceSupport` 
+   [click me](https://github.com/search?utf8=%E2%9C%93&q=DeviceSupport&ref=simplesearch)
 
 #### 3. 代码块 `~/Library/Developer/Xcode/UserData/CodeSnippets` 平时收藏的代码块都是存放在这的, 所以换公司换电脑异或是家里公司代码块同步如同此法,把代码块文件放进这里,重新启动`Xcode`即可食用。
 
