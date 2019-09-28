@@ -39,7 +39,13 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
     NSString *IPStr = [NSString stringWithContentsOfURL:ipURL encoding:NSUTF8StringEncoding error:nil];
 
 ```
-
-
+#### 14. 统计当前目录下(iOS)的代码行数的shell命令,搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
+```shell
+find . "(" -name "*.h" -or -name "*.mm" -or -name "*.m" -or -name "*.swift" ")" -print | xargs wc -l
+``` 
+#### 15. 防止甩锅(**`git blame`代码记录查询命令,`blame`字面意思是责怪，指责，怪...**) 搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
+```shell
+git blame -L 22,30 Example.m #替换具体的代码行数和文件名即可
+``` 
 
 
