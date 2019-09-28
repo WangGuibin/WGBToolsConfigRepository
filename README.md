@@ -33,6 +33,12 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 #### 11. [一款不错免费录屏工具Kap](https://getkap.co/) 
 #### 12. [coffeeipsum](http://coffeeipsum.com/) 一个自动生成英文文章的网站
+#### 13. 记录获取网络ip的两个地址 [https://icanhazip.com](https://icanhazip.com) 和 [http://ifconfig.me/ip](http://ifconfig.me/ip) 
+```objc
+    NSURL *ipURL = [NSURL URLWithString:@"http://ifconfig.me/ip"];
+    NSString *IPStr = [NSString stringWithContentsOfURL:ipURL encoding:NSUTF8StringEncoding error:nil];
+
+```
 
 
 
