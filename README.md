@@ -1,6 +1,7 @@
 # WGBToolsConfigRepository
 平时可能会用上的一些效率工具及配置,存放于此 
 (基于`Alfred`的`workflows`, `vim`的配置文件,`zsh`的配置文件,`Xcode`主题配置)
+[TOC]
 
 #### 0. 点击`finder`上的图标即可快速跳转系统终端或者`iTerm`并`cd`至到当前目录下,该软件地址 https://zipzapmac.com/Go2Shell
 
@@ -31,7 +32,7 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 #### 10. [在线绘制ASCi流程图](http://asciiflow.com/) 
 
 #### 11. [一款不错免费录屏工具Kap](https://getkap.co/) 
-
+#### 12. [coffeeipsum](http://coffeeipsum.com/) 一个自动生成英文文章的网站
 
 
 
