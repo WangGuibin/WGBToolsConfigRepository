@@ -34,18 +34,36 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 #### 11. [一款不错免费录屏工具Kap](https://getkap.co/) 
 #### 12. [coffeeipsum](http://coffeeipsum.com/) 一个自动生成英文文章的网站
 #### 13. 记录获取网络ip的两个地址 [https://icanhazip.com](https://icanhazip.com) 和 [http://ifconfig.me/ip](http://ifconfig.me/ip) 
-```objc
-    NSURL *ipURL = [NSURL URLWithString:@"http://ifconfig.me/ip"];
-    NSString *IPStr = [NSString stringWithContentsOfURL:ipURL encoding:NSUTF8StringEncoding error:nil];
 
-```
+<details>
+<summary>示例</summary>
+  <pre style="background-color:black;color:white;"> <span style="color:red;" >Objective-C</span>
+  <span> </span>
+    <span style="color:rgb(220,132,251);">NSURL</span> *ipURL = [<span style="color:rgb(220,132,251);">NSURL URLWithString</span>:@"<span style="color:rgb(237,223,137);">http://ifconfig.me/ip</span>"];  
+    <span style="color:rgb(220,132,251);">NSString</span> *IPStr = [<span style="color:rgb(220,132,251);">NSString stringWithContentsOfURL</span>:ipURL 
+    <span style="color:rgb(220,132,251);">encoding</span>:<span style="color:rgb(220,132,251);">NSUTF8StringEncoding error</span>:<span style="color:rgb(255,49,146);">nil</span>];
+    <span> </span></pre>
+</details>
+
 #### 14. 统计当前目录下(iOS)的代码行数的shell命令,搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
-```shell
-find . "(" -name "*.h" -or -name "*.mm" -or -name "*.m" -or -name "*.swift" ")" -print | xargs wc -l
-``` 
+
+<details>
+<summary>查看命令</summary>
+  <pre style="background-color:black;color:white;"> <span style="color:red;" >bash shell</span>
+  <br/> <span style="color:rgb(28, 232, 132);"> find</span> . <span style="color:rgb(201,196,46);">"("</span> -name <span style="color:rgb(201,196,46);">"*.h"</span> -or -name <span style="color:rgb(201,196,46);">"*.mm"</span> -or -name <span style="color:rgb(201,196,46);">"*.m"</span> -or -name <span style="color:rgb(201,196,46);">"*.swift"</span> <span style="color:rgb(201,196,46);">")"</span> -print | <span style="color:rgb(28, 232, 132);">xargs</span> wc -l <br/>
+</pre>
+</details>
+
 #### 15. 防止甩锅(**`git blame`代码记录查询命令,`blame`字面意思是责怪，指责，怪...**) 搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
-```shell
-git blame -L 22,30 Example.m #替换具体的代码行数和文件名即可
-``` 
+
+<details>
+<summary>查看命令</summary>
+<pre style="background-color:black;color:white;"> <span style="color:red;" >bash shell</span>
+  <br/>
+  git blame -L 22,30 Example.m <span style="color:rgb(28, 232, 132);"> # 替换具体的代码行数和文件名即可</span>
+  <br/>
+</pre>
+</details>
+
 
 
