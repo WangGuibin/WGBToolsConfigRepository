@@ -21,7 +21,7 @@ a.   [cartool](<https://github.com/steventroughtonsmith/cartool>)   做个轮子
 
 b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) 这个轮子有人在维护,所以他目前是可以使用的, 傻瓜式的GUI,这个用起来比较爽,支持图片名模糊搜索,找到想要的直接拖拽出来,也可以批量全部导出, 但是唯一的缺点就是拖拽出来的图片.car里面还是会有一份,实际上是拖拽仅仅是拷贝出来的一份而已
 
-#### 6. Xcode热重载插件(`目前只适用于模拟器`),提高开发效率的工具`InjectionIII` [使用教程](http://wangguibin.github.io/#/posts/Xcode辅助工具之热重载插件利器) 
+#### 6. Xcode热重载插件(`目前只适用于模拟器`),提高开发效率的工具`InjectionIII` [使用教程](http://wangguibin.github.io/#/posts/Xcode辅助工具之热重载插件利器) （作者Xcode 10以上不再维护了 估计是系统之类的改动比较大）
 
 #### 7. 在线图片压缩工具[无损压缩工具imageoptim](https://imageoptim.com/mac) 和 [PNG压缩工具](https://tinypng.com/) 以及[移除iOS项目无用图片工具](https://github.com/tinymind/LSUnusedResources)
 
@@ -37,20 +37,16 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 <details>
 <summary>示例</summary>
-  <pre style="background-color:black;color:white;"> <span style="color:red;" >Objective-C</span>
-  <span> </span>
-    <span style="color:rgb(220,132,251);">NSURL</span> *ipURL = [<span style="color:rgb(220,132,251);">NSURL URLWithString</span>:@"<span style="color:rgb(237,223,137);">http://ifconfig.me/ip</span>"];  
-    <span style="color:rgb(220,132,251);">NSString</span> *IPStr = [<span style="color:rgb(220,132,251);">NSString stringWithContentsOfURL</span>:ipURL 
-    <span style="color:rgb(220,132,251);">encoding</span>:<span style="color:rgb(220,132,251);">NSUTF8StringEncoding error</span>:<span style="color:rgb(255,49,146);">nil</span>];
-    <span> </span></pre>
+  <pre style="background-color:black;color:white;"> <span style="color:red;" >objc</span> <br/> <span style="color:rgb(220,132,251);">NSURL</span> *ipURL = [<span style="color:rgb(220,132,251);">NSURL URLWithString</span>:@"<span style="color:rgb(237,223,137);">http://ifconfig.me/ip</span>"];
+    <span style="color:rgb(220,132,251);">NSString</span> *IPStr = [<span style="color:rgb(220,132,251);">NSString stringWithContentsOfURL</span>:ipURL <span style="color:rgb(220,132,251);">encoding</span>:<span style="color:rgb(220,132,251);">NSUTF8StringEncoding error</span>:nil]; 
+</pre>
 </details>
 
 #### 14. 统计当前目录下(iOS)的代码行数的shell命令,搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
 
 <details>
 <summary>查看命令</summary>
-  <pre style="background-color:black;color:white;"> <span style="color:red;" >bash shell</span>
-  <br/> <span style="color:rgb(28, 232, 132);"> find</span> . <span style="color:rgb(201,196,46);">"("</span> -name <span style="color:rgb(201,196,46);">"*.h"</span> -or -name <span style="color:rgb(201,196,46);">"*.mm"</span> -or -name <span style="color:rgb(201,196,46);">"*.m"</span> -or -name <span style="color:rgb(201,196,46);">"*.swift"</span> <span style="color:rgb(201,196,46);">")"</span> -print | <span style="color:rgb(28, 232, 132);">xargs</span> wc -l <br/>
+  <pre style="background-color:black;color:white;"> <br/> <span style="color:rgb(28, 232, 132);"> find</span> . <span style="color:rgb(201,196,46);">"("</span> -name <span style="color:rgb(201,196,46);">"*.h"</span> -or -name <span style="color:rgb(201,196,46);">"*.mm"</span> -or -name <span style="color:rgb(201,196,46);">"*.m"</span> -or -name <span style="color:rgb(201,196,46);">"*.swift"</span> <span style="color:rgb(201,196,46);">")"</span> -print | <span style="color:rgb(28, 232, 132);">xargs</span> wc -l <br/>
 </pre>
 </details>
 
@@ -58,7 +54,7 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 <details>
 <summary>查看命令</summary>
-<pre style="background-color:black;color:white;"> <span style="color:red;" >bash shell</span>
+<pre style="background-color:black;color:white;">
   <br/>
   git blame -L 22,30 Example.m <span style="color:rgb(28, 232, 132);"> # 替换具体的代码行数和文件名即可</span>
   <br/>
@@ -67,3 +63,4 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 
 
+#### 16. [ 平时使用的Google书签 ](./Google书签/README.md)
