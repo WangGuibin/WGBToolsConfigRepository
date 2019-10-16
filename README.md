@@ -64,3 +64,5 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 
 #### 16. [ 平时使用的Google书签 ](./Google书签/README.md)
+
+#### 17. 一款统计键盘鼠标敲击次数的mac应用 [中文教程](https://zhuanlan.zhihu.com/p/21787949)  [下载地址](https://github.com/KonsomeJona/OctoMouse/releases) 
