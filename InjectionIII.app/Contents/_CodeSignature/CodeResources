@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
-		LL849iBrgcWImrvhfGwiqlVEOqo=
+		NKrosgtkIdZQgGbnydVU3kzWhdA=
 		</data>
 		<key>Resources/CodeMirror/AUTHORS</key>
 		<data>
@@ -1526,15 +1526,15 @@
 		</data>
 		<key>Resources/README.md</key>
 		<data>
-		ijQfjuj28dZpqUmpcFWUpL/AXTQ=
+		na3rSTg0/NHLLoViXDKqKMwUtFw=
 		</data>
 		<key>Resources/XprobeConsole.nib</key>
 		<data>
-		aTjVQLLSzPXDQef3uQqchjlkayg=
+		Wr/SOlyOf9gzD9IEySBTLjBXAlg=
 		</data>
 		<key>Resources/XprobePluginMenuController.nib</key>
 		<data>
-		IBcSP+nkrPm05/HJzhRqBVbsxsQ=
+		i/r8cD5PY5PsyneoGWIG/yYd5/0=
 		</data>
 		<key>Resources/canviz-0.1/LICENSE.txt</key>
 		<data>
@@ -1570,49 +1570,25 @@
 		</data>
 		<key>Resources/iOSInjection.bundle/Info.plist</key>
 		<data>
-		gUhmy7X8qGofalUFRKpXCzTpZWU=
+		UP+0nS2uZp+1JGu5S9F5YWLvIMw=
 		</data>
 		<key>Resources/iOSInjection.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		3/XY4tWVCmgra0BRAXtgl1+wAe4=
+		Ul+59CvOwE6NsUD+NSOIJ2QNjwU=
 		</data>
 		<key>Resources/iOSInjection.bundle/iOSInjection</key>
 		<data>
-		oQegnUqlfk+JpV2nkm94YtmW7yI=
-		</data>
-		<key>Resources/iOSInjection10.bundle/Info.plist</key>
-		<data>
-		intqYVKfF3/bEyUWpoGlCebURx0=
-		</data>
-		<key>Resources/iOSInjection10.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		p986A6vTofe9zkesJ1KdJQuyMuA=
-		</data>
-		<key>Resources/iOSInjection10.bundle/iOSInjection10</key>
-		<data>
-		zUJy3Z7Nf4s+QyF1Rkcg8fGC74A=
+		CQmxbgUAcSwllMmDWLmecq44D/k=
 		</data>
 		<key>Resources/macOSInjection.bundle/Contents/Info.plist</key>
 		<data>
-		s4cFVEPDILG5a6dvtO0BKdu5B3c=
+		C51ahAc6CiA+JasODTdjLj42Azk=
 		</data>
 		<key>Resources/macOSInjection.bundle/Contents/MacOS/macOSInjection</key>
 		<data>
-		/Tzurg9u1M7VzGb3NNtB5uvH0h0=
+		4Bryf18+sA3jhHYIhEyE/F02APU=
 		</data>
 		<key>Resources/macOSInjection.bundle/Contents/_CodeSignature/CodeResources</key>
-		<data>
-		YwoIhzByBpYWzcwx9V5tdCMIbXg=
-		</data>
-		<key>Resources/macOSInjection10.bundle/Contents/Info.plist</key>
-		<data>
-		Rllk/RsM51ivakrYgcVwk3TkKMY=
-		</data>
-		<key>Resources/macOSInjection10.bundle/Contents/MacOS/macOSInjection10</key>
-		<data>
-		mn9dD61YNQEql0QGPFUVfbpNYV0=
-		</data>
-		<key>Resources/macOSInjection10.bundle/Contents/_CodeSignature/CodeResources</key>
 		<data>
 		YwoIhzByBpYWzcwx9V5tdCMIbXg=
 		</data>
@@ -1622,27 +1598,15 @@
 		</data>
 		<key>Resources/tvOSInjection.bundle/Info.plist</key>
 		<data>
-		cN3JKqqDqKdh84OtSg6F7MnlvtI=
+		wjkiOwDxOyLgTzGOdsoRId5ZHIA=
 		</data>
 		<key>Resources/tvOSInjection.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		gk0gJEG+YxbjdsX1sQWyin1tAgQ=
+		6/ddA1AbVGiCsPe1Z3gdDVIktCU=
 		</data>
 		<key>Resources/tvOSInjection.bundle/tvOSInjection</key>
 		<data>
-		eIfA1+4n6DGaSv5UJXZX8VWUg18=
-		</data>
-		<key>Resources/tvOSInjection10.bundle/Info.plist</key>
-		<data>
-		jRF8P/H6C+64hEaZABWbG2GhOWM=
-		</data>
-		<key>Resources/tvOSInjection10.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		RH0RcY1tkO/iPbemlUAUFrwvsDg=
-		</data>
-		<key>Resources/tvOSInjection10.bundle/tvOSInjection10</key>
-		<data>
-		OUqRps7KxGWUV2E/msX1kL4Xqdo=
+		A/EboXCgYRENIypuWo/9yrJNanM=
 		</data>
 		<key>Resources/xprobe.html</key>
 		<data>
@@ -1655,73 +1619,73 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			WkFXfSeC0NklZMZq7djuh2cirUk=
+			rFPGv2xF9kOl9U25mjWivRmzhEI=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftCore"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCore" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			T70tug+LrCw6+KoNxXEgG1eFb30=
+			Z3OBqM1RWm2FLtzjtqn/f1tkVY0=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftCoreFoundation"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCoreFoundation" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/ZwujCMjO/f49W4lvpLbiNFjQNQ=
+			X2hrG+xD3rqNpRkCTAq273JMSac=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftCoreGraphics"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftCoreGraphics" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			M/cQEfsj2QNZob/iJH7YaQpkcVM=
+			gtr/D+oJBFLOIuK6LkjH6Yeea0Y=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftDarwin"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftDarwin" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			PJNN57cIJvoFTiIRh2+b5r0k2Vc=
+			w/IPRm0enYDgxbSYWWKGQbS7GVo=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftDispatch"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftDispatch" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			guj+nRFAdS982+xoc81UEcmPbrA=
+			GuJ2KjrMWYSo2rzKuyYYKd1/nIY=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftFoundation"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftFoundation" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Frameworks/libswiftIOKit.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ehZO8WcfATdRMHFQqgcjEqRcU3Q=
+			AhRl36SJ7R+n5KGQpbRMxwKZJxQ=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftIOKit"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftIOKit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			5K+Yppxm5K4FIbHY4CFBcimtECg=
+			1ypXrI86M0IXY7XePbktFIeqMr8=
 			</data>
 			<key>requirement</key>
-			<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3) and identifier "com.apple.dt.runtime.swiftObjectiveC"</string>
+			<string>anchor apple generic and identifier "com.apple.dt.runtime.swiftObjectiveC" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = E23HUP39A3)</string>
 		</dict>
 		<key>Resources/App.icns</key>
 		<dict>
@@ -1734,7 +1698,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KSje8eglYTaRvjlqW06v5405xv+FbLHb0hRN6HUvSOw=
+			gM/zoAJIyoGPrBbkQlO3wDB/mnAO0sGiGdRKEOK5Swg=
 			</data>
 		</dict>
 		<key>Resources/CodeMirror/AUTHORS</key>
@@ -4387,21 +4351,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZN6TotQE+SaCuJv0hbbETXijnFk1Xcuo5/BL5eCTv+M=
+			m66ZLhVyg54X/X6l6t50Offuw49t1jQH0ycUWNpSI4o=
 			</data>
 		</dict>
 		<key>Resources/XprobeConsole.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uEWHT1C4yfLpiiJtHzg6RDpo/Rqbs64oZLse9BtCCY=
+			M6dLwr/onrO/TYDkv1fYEwYt1QBfdE2KrGhZ3//cTXs=
 			</data>
 		</dict>
 		<key>Resources/XprobePluginMenuController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B1mes86qfuEQsY5cetr/s6216EqmVXFssDOApw5lUhI=
+			k0IiKN49apuIle0qOkmSzCGrdtm3iApbEc5MSrJCNGw=
 			</data>
 		</dict>
 		<key>Resources/canviz-0.1/LICENSE.txt</key>
@@ -4464,80 +4428,38 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0HP5jkaIhr2Omae2va/Ho21smGz8fBUVx4HGvdMIczY=
+			TdTTgduKNqO5G8yIs9VQMCuARGdXJNqf88SYtkjgUjM=
 			</data>
 		</dict>
 		<key>Resources/iOSInjection.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cF7dgOQPK862I9WCOR9ZtVZn9RqNlbkaUHuLJJhtJQw=
+			SYey01wjszj2m1e+Deec7SCm8pBKTlnyj3v3ncLNGwI=
 			</data>
 		</dict>
 		<key>Resources/iOSInjection.bundle/iOSInjection</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yKQI35aXmPvr8TB4luaBe4LLLFZ98iFWpvmJocmWln0=
-			</data>
-		</dict>
-		<key>Resources/iOSInjection10.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3AKg4tyhMmcgPonCdq8VfUjokvjoGmwiUNZ1fzDfJ/0=
-			</data>
-		</dict>
-		<key>Resources/iOSInjection10.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Uf0rEH5hEvFrIyRfARMfuVQBIl0Iqv5iKHbyqd3Usdk=
-			</data>
-		</dict>
-		<key>Resources/iOSInjection10.bundle/iOSInjection10</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ov33if/SDnyFWtePPGlt+6FW1tS/7rn0gXGzILcfRaY=
+			XL8riau1xeAHE8RdEXkMeDsW0n/IVqrYmHEwxpH7hng=
 			</data>
 		</dict>
 		<key>Resources/macOSInjection.bundle/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h2RNlZQsdPCqMua+C+1qreAYMIdyKKBLbiA0qOJVSjw=
+			63QwSP/Dtm1lEmUmdHdjGA6JwGL1zQC36pVuiLTJTqM=
 			</data>
 		</dict>
 		<key>Resources/macOSInjection.bundle/Contents/MacOS/macOSInjection</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aa2dBMzLlWrqlbm8MniKeeiftt/vjlqVtj6o0TurIDI=
+			ZGFL3Uv3Fxw9KBoHmVY37Mdqh9Rl5fGAwTVxwXnV54o=
 			</data>
 		</dict>
 		<key>Resources/macOSInjection.bundle/Contents/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZobeEKKKL+EbNsu4bcusyCfPxOoRa02r8YReWu5inps=
-			</data>
-		</dict>
-		<key>Resources/macOSInjection10.bundle/Contents/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Eoe5o4/wXarW+oudkAPqhAigTycHT38h995pMBzOduw=
-			</data>
-		</dict>
-		<key>Resources/macOSInjection10.bundle/Contents/MacOS/macOSInjection10</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aHrvng+redne90WC+7YtYZOn5zWre9Rs+Ao3MZkZ5+M=
-			</data>
-		</dict>
-		<key>Resources/macOSInjection10.bundle/Contents/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -4555,42 +4477,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sBkOmQ4dbaQiqG/fFHyqkP3a4un4k0tdyAeWjyenKz4=
+			kVyzOoNzjGm2flgN+mhp9i6OdoUWybMmBxo6woWT+bo=
 			</data>
 		</dict>
 		<key>Resources/tvOSInjection.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mq11GkIIWUgTpDld6bQ3d3bkB6lepxWnr8NfB8AMIfU=
+			3GK1Ha3h5tsUEVM1IQd6HA9ZFPoqNK2Y8Bjw/auZj6A=
 			</data>
 		</dict>
 		<key>Resources/tvOSInjection.bundle/tvOSInjection</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GjFobpdeAexYZwAnMeLNQn//OjGZ4QJ9IzwZSZr5E9w=
-			</data>
-		</dict>
-		<key>Resources/tvOSInjection10.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K/g+ZHXXFuqZ/3ajChyrwlMMH4m1pQSY3BP7HENxS7Y=
-			</data>
-		</dict>
-		<key>Resources/tvOSInjection10.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dpzLm1mm6nk9zSwFhhfYcC/FLfGROBskf4Ys1c6JNkc=
-			</data>
-		</dict>
-		<key>Resources/tvOSInjection10.bundle/tvOSInjection10</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GRnj8ADvbOfnwXtoQFdVuHJroVFBL+0kmR3FCqsn+Jk=
+			b8OpaTw0IXtC7myrc8dj88Ud0bMAOas7MeYr1GyllME=
 			</data>
 		</dict>
 		<key>Resources/xprobe.html</key>
@@ -4598,6 +4499,13 @@
 			<key>hash2</key>
 			<data>
 			PqdBiqClK+sC/6thQarqBoIn4yz/juxI77Kyu2JDcNM=
+			</data>
+		</dict>
+		<key>embedded.provisionprofile</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y7JSUsvqYwtM8XOp3vGSvYixTVI3C1TnwAu28+qZg0E=
 			</data>
 		</dict>
 	</dict>
