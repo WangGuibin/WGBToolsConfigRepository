@@ -70,15 +70,16 @@
 ```
 
 #### 文件预编译的几个宏释义 
-`___FILENAME___` 文件名包括后缀
-`___PROJECTNAME___` 工程名
-`___FULLUSERNAME___`用户的名字，这里也可以直接写死为自己的名字xxx
-`___DATE___` 当前日期，年/月/日
-`___COPYRIGHT___` 版权
-`___FILEBASENAME___` 不带后缀的文件名
-`___FILEBASENAMEASIDENTIFIER___` 不带后缀的文件名
+```objc
+___FILENAME___ 文件名包括后缀
+___PROJECTNAME___ 工程名
+___FULLUSERNAME___ 用户的名字，这里也可以直接写死为自己的名字xxx
+___DATE___ 当前日期，年/月/日
+___COPYRIGHT___ 版权
+___FILEBASENAME___ 不带后缀的文件名
+___FILEBASENAMEASIDENTIFIER___ 不带后缀的文件名
 
-
+```
 ### 注意： 这里介绍的方式是临时修改一个项目的文件模板方式
 
 
