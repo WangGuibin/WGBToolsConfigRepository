@@ -50,6 +50,8 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 </pre>
 </details>
 
+![](/Users/mac/Desktop/LocalLibs/WGBToolsConfigRepository/code_total.png)
+
 #### 15. 防止甩锅(**`git blame`代码记录查询命令,`blame`字面意思是责怪，指责，怪...**) 搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
 
 <details>
