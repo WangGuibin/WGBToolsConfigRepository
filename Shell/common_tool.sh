@@ -35,6 +35,9 @@ showMenu() {
 	echo "5. 安装carthage"
 	echo "6. 日常提交git代码"
 	echo "7. 发布更新pod组件"
+	echo "8. git blame查询代码归属人"
+	echo "9. 查询指定路径下iOS代码行数"
+	echo "10. 查询当前网络ip地址"
 	echo "======================================"
 	
 	read -p "输入选项编号：" number
@@ -61,6 +64,15 @@ showMenu() {
 		;;
 
 		7) publishUpdatePodSpecs
+		;;
+
+		8) gitblameCode
+		;;
+
+		9) totaliOSCodeRows
+		;;
+
+		10) searchCurrentNetworkIPAddress
 		;;
 
 	esac	
@@ -181,6 +193,24 @@ publishUpdatePodSpecs() {
 
 }
 
+gitblameCode() {
+	echo "查询代码归属人,参数请按要求填写~"
+	read -p "输入代码文件路径: " code_path
+	read -p "输入代码行数起点: " code_start_row
+	read -p "输入代码行数终点: " code_end_row
+
+	git blame -L ${code_start_row},${code_end_row} ${code_path}  
+}
+
+totaliOSCodeRows() {
+	read -p "输入代码文件所在路径: " code_path
+
+	find ${code_path} "(" -name "*.h" -or -name "*.mm" -or -name "*.m" -or -name "*.swift" ")" -print | xargs wc -l 
+}
+
+searchCurrentNetworkIPAddress() {
+	curl http://ifconfig.me/ip
+}
 
 ####################################################
 showMenu
