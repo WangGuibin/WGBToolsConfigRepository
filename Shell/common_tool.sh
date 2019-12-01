@@ -136,9 +136,9 @@ commitGitRecord() {
 	read -p "输入提交日志信息: " commit_message
 	read -p "输入分支名(默认为dev分支): " branch_name
 
-	if [[ -n "$commit_message" ]]; then
+	if [[ -n "${commit_message}" ]]; then
 		#statements
-		echo "日志信息参数为: $commit_message"
+		echo "日志信息参数为: ${commit_message}"
 	else
 		echo "日志信息参数为空，已使用默认模板: 🚀update~"
 		commit_message="🚀update~"
@@ -146,14 +146,14 @@ commitGitRecord() {
 
 	if [[ -n "$branch_name" ]]; then
 		#statements
-		echo "分支名参数为: $branch_name "
+		echo "分支名参数为: ${branch_name} "
 	else
 		echo "分支名参数未输入,默认为dev"
 		branch_name="dev"
 	fi
 
 	git add .
-	git commit -am  "$commit_message"
+	git commit -am  "${commit_message}"
 	git push origin ${branch_name}
 }
 
@@ -163,33 +163,33 @@ publishUpdatePodSpecs() {
 	read -p "输入版本号(和.podspec文件里的版本号保持一致): " version_number
 	read -p "输入组件podspec_name名字(形如xxx.podspec需后缀): " podspec_name
 
-	if [[ -n "$commit_message" ]]; then
+	if [[ -n "${commit_message}" ]]; then
 		#statements
-		echo "日志信息参数为: $commit_message"
+		echo "日志信息参数为: ${commit_message}"
 	else
 		echo "日志信息参数为空"
 		commit_message="update~"
 	fi
 
-	if [[ -n "$version_number" ]]; then
+	if [[ -n "${version_number}" ]]; then
 		#statements
-		echo "版本号参数为: $version_number "
+		echo "版本号参数为: ${version_number} "
 	else
 		echo "版本号参数未输入"
 	fi
 
-	if [[ -n "$podspec_name" ]]; then
+	if [[ -n "${podspec_name}" ]]; then
 		#statements
-		echo "组件名字参数为: $version_number "
+		echo "组件名字参数为: ${version_number} "
 	else
 		echo "请填写组件podspec_name名字(形如xxx.podspec):"
 	fi
 
 	git add .
-	git commit -am  "$commit_message"
-	git tag  $version_number
+	git commit -am  "${commit_message}"
+	git tag  ${version_number}
 	git push origin master --tags
-	pod trunk push ./$podspec_name --allow-warnings --verbose
+	pod trunk push ./${podspec_name} --allow-warnings --verbose
 
 }
 
