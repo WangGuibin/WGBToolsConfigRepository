@@ -72,3 +72,29 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 #### 18. 部署Xcode项目临时模板 点击 [自定义Xcode顶部描述信息](./自定义Xcode顶部描述信息/README.md)
 
 #### 19. [shell脚本集合](./shell)
+
+#### 20. [Mac调整屏幕分辨率工具](https://github.com/avibrazil/RDM) 
+
+#### 21。 [约束警告排查](https://www.wtfautolayout.com/) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
