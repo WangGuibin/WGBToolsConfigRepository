@@ -51,7 +51,7 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 </pre>
 </details>
 
-![](/Users/mac/Desktop/LocalLibs/WGBToolsConfigRepository/code_total.png)
+![](../code_total.png)
 
 #### 15. 防止甩锅(**`git blame`代码记录查询命令,`blame`字面意思是责怪，指责，怪...**) 搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
 
@@ -76,9 +76,9 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 #### 20. [Mac调整屏幕分辨率工具](https://github.com/avibrazil/RDM) 
 
-#### 21。 [约束警告排查](https://www.wtfautolayout.com/) 
+#### 21. [约束警告排查](https://www.wtfautolayout.com/) 
 
-
+#### 22. [文档部署工具docsify](https://docsify.js.org/#/zh-cn/quickstart)  需要repo本地根目录先创建docs文件夹,git-pages里的`master branch/docs folder`选项才能被选择 https://juejin.im/post/5b14b2f06fb9a01e5e3d3121 
 
 
 
