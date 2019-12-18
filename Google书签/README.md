@@ -3,49 +3,7 @@ Bookmarks
 Bookmarks
 =========
 
-### 书签栏 {add_date="1562145117" last_modified="1570947609" personal_toolbar_folder="true"}
-
-### 短视频相关 {add_date="1562385969" last_modified="1566785805"}
-
-[[iOS]短视频录制(新) - 简书](https://www.jianshu.com/p/c74ff49a720c)
-
-[iOS 视频剪切、旋转，视频添加音频、添加水印，视频导出 -
-简书](https://www.jianshu.com/p/5433143cccd8)
-
-[IOS视频编辑功能详解下篇-视频裁剪、视频拼接、音视频的处理 -
-胡东东博客](http://blog.hudongdong.com/ios/550.html)
-
-[AVPlayer 播放加密m3u8(swift版) -
-简书](https://www.jianshu.com/p/2c2cbe173e99)
-
-[AVPlayer那些坑](http://liunan.me/2017/01/30/avplayer)
-
-[m3u8缓存播放实现](https://www.jianshu.com/p/b0db841ed6d3)
-
-[IOS 中视频和音乐合成 - ismilesky的博客 -
-CSDN博客](https://blog.csdn.net/ismilesky/article/details/51920113)
-
-[iOS 视频合成 （图片和视频的合成 ，视频跟音频的合成） -
-简书](https://www.jianshu.com/p/0f9789a6d99a)
-
-[Zeplin - Projects](https://app.zeplin.io/projects)
-
-[接口文档](http://apidoc.local.com/web/#/item/index)
-
-[Gitblit](http://gitblit.local.com/)
-
-### Git {add_date="1563849800" last_modified="1570972084"}
-
-[Git 问题, 一个 master, 多个新功能分支, 怎样有序地合并和提交? -
-SegmentFault 思否](https://segmentfault.com/q/1010000000181403)
-
-[git merge --no-ff是什么意思 - SegmentFault
-思否](https://segmentfault.com/q/1010000002477106)
-
-[nice-front-end-tutorial/git-tutorial.md at master ·
-nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/git-tutorial.md)
-
-### 常看的博客或者repo {add_date="1567584719" last_modified="1570946301"}
+### 常看的博客或者repo {add_date="1567584719" last_modified="1576556149"}
 
 [吃瓜聚合](https://www.printf520.com/)
 
@@ -54,6 +12,10 @@ nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tut
 [面向对象设计的设计原则和设计模式](https://github.com/knightsj/object-oriented-design)
 
 [知识小集 | iOS高质量内容推送。](https://awesome-tips.github.io/)
+
+[QiShare官方小站](https://qishare.vip/)
+
+[刘彦玮的技术博客](http://liuyanwei.jumppo.com/2016/02/29/iOS-objc-styleguide.html)
 
 [iOS
 开发者在面试过程中，常见的一些面试题，建议尽量弄懂了原理，并且多实践。](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
@@ -89,20 +51,13 @@ nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tut
 
 [倾城之链](https://nicelinks.site/?utm_source=jeffjade.com&pid=topad)
 
-### ios相关 {add_date="1563849800" last_modified="1565500977"}
+[XDAppFluencyMonitor/基于nsrunloop的ios卡顿监测.md at master ·
+suxinde2009/XDAppFluencyMonitor](https://github.com/suxinde2009/XDAppFluencyMonitor/blob/master/%E5%9F%BA%E4%BA%8Ensrunloop%E7%9A%84ios%E5%8D%A1%E9%A1%BF%E7%9B%91%E6%B5%8B.md)
 
-[iOS Fonts](http://iosfonts.com/)
+[iOS逆向 应用重签名+微信重签名实战 -
+掘金](https://juejin.im/post/5dc41fd4e51d45237c7f0b22?utm_source=gold_browser_extension)
 
-[CocoaChina](http://code.cocoachina.com/)
-
-[Code4App](http://www.code4app.com/)
-
-[iOS-Performance-Optimization: 关于iOS
-性能优化梳理、内存泄露、卡顿、网络、GPU、电量、 App
-包体积瘦身、启动速度优化等、Instruments 高级技巧、常见的优化技能- Get —
-Edit](https://github.com/skyming/iOS-Performance-Optimization)
-
-### 常用工具 {add_date="1563849824" last_modified="1570972069"}
+### 常用工具 {add_date="1563849824" last_modified="1576556165"}
 
 [Google
 翻译](https://translate.google.cn/#view=home&op=translate&sl=auto&tl=en&text=%E8%81%94%E5%90%88)
@@ -110,6 +65,8 @@ Edit](https://github.com/skyming/iOS-Performance-Optimization)
 [JSON在线解析及格式化验证 - JSON.cn](https://www.json.cn/)
 
 [json转model](http://modelend.com/)
+
+[WTF Auto Layout?](https://www.wtfautolayout.com/)
 
 [TinyPNG 图片压缩](https://tinypng.com/)
 
@@ -154,17 +111,23 @@ table,excel,sql,xml](https://tableconvert.com/)
 [wikiHow -
 您可以编辑的指导手册](https://zh.wikihow.com/%E9%A6%96%E9%A1%B5)
 
+[全历史](https://www.allhistory.com/)
+
+[Magi](https://magi.com/)
+
+[文章生成器](https://suulnnka.github.io/BullshitGenerator/index.html?%E4%B8%BB%E9%A2%98=%E6%AF%92%E9%B8%A1%E6%B1%A4&%E9%9A%8F%E6%9C%BA%E7%A7%8D%E5%AD%90=995660)
+
+[JSLinux](https://bellard.org/jslinux/)
+
+[Element Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+
+[正则表达式在线工具](https://regex101.com/)
+
 [Apple Developer](https://developer.apple.com/)
 
 [github Search](https://github.com/search?q=)
 
-[超详细的Web前端学习](https://github.com/qianguyihao/Web)
-
-### 在线听歌 {add_date="1568547035" last_modified="1568626483"}
-
-[在线免费听歌](https://www.haiwaiyy.com/yinyue/)
-
-### RN相关 {add_date="1569855615" last_modified="1570947531"}
+### 大前端 {add_date="1569855615" last_modified="1575529786"}
 
 [crazycodeboy/RNStudyNotes: React Native
 研究与实践](https://github.com/crazycodeboy/RNStudyNotes)
@@ -177,10 +140,22 @@ table,excel,sql,xml](https://tableconvert.com/)
 [nice-front-end-tutorial/react-tutorial.md at master ·
 nicejade/nice-front-end-tutorial](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/react-tutorial.md)
 
+[lefex/FE: 前端小课，每天一课，前端从 0 到
+1](https://github.com/lefex/FE)
+
+[超详细的Web前端学习](https://github.com/qianguyihao/Web)
+
+[knowledge-kit/SUMMARY.md at master ·
+FantasticLBP/knowledge-kit](https://github.com/FantasticLBP/knowledge-kit/blob/master/SUMMARY.md)
+
+### 在线听歌 {add_date="1568547035" last_modified="1568626483"}
+
+[在线免费听歌](https://www.haiwaiyy.com/yinyue/)
+
 ### 图片资源 {add_date="1570947609" last_modified="1570947755"}
 
 [500px找图](https://500px.com/popular)
 
-[Free Images](https://pixabay.com/?utm_source=nicelinks.site)
+[Free Images](https://pixabay.com)
 
 

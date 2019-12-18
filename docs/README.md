@@ -80,6 +80,7 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 #### 22. [文档部署工具docsify](https://docsify.js.org/#/zh-cn/quickstart)  需要repo本地根目录先创建docs文件夹,git-pages里的`master branch/docs folder`选项才能被选择 https://juejin.im/post/5b14b2f06fb9a01e5e3d3121 
 
+#### 23. [MacOS 状态栏隐藏工具](https://github.com/dwarvesf/hidden)
 
 
 
