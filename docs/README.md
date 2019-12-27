@@ -66,13 +66,13 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 
 
-#### 16. [ 平时使用的Google书签 ](./Google书签/README.md)
+#### 16. [ 平时使用的Google书签 ](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Google%E4%B9%A6%E7%AD%BE/README.md)
 
 #### 17. 一款统计键盘鼠标敲击次数的mac应用 [中文教程](https://zhuanlan.zhihu.com/p/21787949)  [下载地址](https://github.com/KonsomeJona/OctoMouse/releases) 
 
 #### 18. 部署Xcode项目临时模板 点击 [自定义Xcode顶部描述信息](./自定义Xcode顶部描述信息/README.md)
 
-#### 19. [shell脚本集合](./shell)
+#### 19. [shell脚本集合](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Shell/README.md)
 
 #### 20. [Mac调整屏幕分辨率工具](https://github.com/avibrazil/RDM) 
 
@@ -82,7 +82,7 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 #### 23. [MacOS 状态栏隐藏工具](https://github.com/dwarvesf/hidden)
 
-#### 24. [平时git使用的记录](./git使用记录/README.md)
+#### 24. [平时git使用的记录](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/git%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/README.md)
 
 
 
