@@ -43,14 +43,40 @@ git pull origin master
    gd temp 比較 
    gm temp 合并遠程分支
    gbd “temp” 刪掉臨時分支
-   ```
+```
 
-## 4. 移除本地分支和远程分支
+## 4. 分支管理
 
-本地分支 `git branch -D branchName`
-远程分支 `git push origin --delete branchName` 或者 `git branch -r -d origin/dev && git push origin :dev`
+只创建 `git branch branchName`  或者
+只切换 `git checkout branchName` 或者 `git switch branchName`
+创建并切换 `git checkout -b branchName` 或者 `git switch -c branchName`
+删除本地分支 `git branch -D branchName` 或者 `git branch -d branchName`
+删除远程分支 `git push origin --delete branchName` 或者 `git branch -r -d origin/dev && git push origin :dev` 或者`git push origin -d <branch name>`
+其中 git push origin :branchName 原型是 git push origin master:branchName 将本地的master分支推送到远程的branchName
+
+查看所有分支: `git branch`
+合并分支: `git merge branchName` 一般是切换到主分支(`master`)把旁分支(`branchName`)合并 
+或者使用 `git merge branchName -m "xxx" --no-ff` 其中`--no-ff` Git默认会用`Fast forward`模式，但这种模式下，删除分支后，会丢掉分支信息,强制禁用`Fast forward`模式，加上`--no-ff`就可以查看完整的分支历史信息，不受分支删除影响。
 
 
+## 5. tag管理
 
+```shell
+git tag #查看已有tag
+git tag tagName #当前分支最新节点的tag
+# 指定节点打tag并添加release note信息  
+git tag -a v0.1 -m "version 0.1 released" 1094adb
+git tag -d <tagname> #删除本地标签
+git show <tagname> #可以看到说明文字：
+git push origin v1.0 #推送指定本地标签
+git push origin --tags #一次性全部推
+git push origin :refs/tags/v0.9 #删除指定的远程标签
+git push origin :<branch>/<tag> #删除指定的远程标签 注意冒号 : 必不可少, 后面跟远程库的分支名/标签名
 
+```
 
+## 6. 查看终端`oh-my-zsh`工具封装的git快捷命令
+```shell
+alias | grep git
+
+```
