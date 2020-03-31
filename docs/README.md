@@ -54,7 +54,7 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 #### 6. Xcode热重载插件(`目前只适用于模拟器`),提高开发效率的工具`InjectionIII`（作者Xcode 10以上不再维护OC版本了）[可使用最新的swift版本](https://github.com/johnno1962/InjectionIII/releases)
 
-#### 7. 在线图片压缩工具[无损压缩工具imageoptim](https://imageoptim.com/mac) 和 [PNG压缩工具](https://tinypng.com/) 以及[移除iOS项目无用图片工具](https://github.com/tinymind/LSUnusedResources)
+#### 7. 在线图片压缩工具[无损压缩工具imageoptim](https://imageoptim.com/mac) 和 [PNG压缩工具](https://tinypng.com/) 以及[移除iOS项目无用图片工具](https://github.com/tinymind/LSUnusedResources) [喵神的Fengniao命令行工具](https://github.com/onevcat/FengNiao)还有 [fdupes移除重复资源命令行工具](https://github.com/adrianlopezroche/fdupes)
 
 #### 8. [json在线格式化工具](https://www.json.cn/) 和 [json转model在线工具](http://modelend.com/)
 
