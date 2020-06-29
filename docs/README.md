@@ -114,7 +114,7 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 #### 24. [平时git使用的记录](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/git%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/README.md)
 
-
+#### 25. [一个好用的翻译插件](https://github.com/ripperhe/Bob)
 
 
 
