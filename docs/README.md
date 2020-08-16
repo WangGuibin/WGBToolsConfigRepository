@@ -116,7 +116,11 @@ b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) �
 
 #### 25. [一个好用的翻译插件](https://github.com/ripperhe/Bob)
 
-
+#### 26. [一个开源的图床工具](https://github.com/Molunerfinn/PicGo)
+```html
+<!-- 免费的CDN小技巧 https://cdn.jsdelivr.net/gh/<username>/<repoName>/xxx/xxx 真的香~  -->
+![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/avatar.png)
+```
 
 
 
