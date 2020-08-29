@@ -1,130 +1,134 @@
 # WGBToolsConfigRepository
+# 此库记录平时用到的一些效率工具以及配置
 
-* [0. 点击finder上的图标即可快速跳转系统终端或者iTerm并cd至到当前目录下,该软件地址 <a href="https://zipzapmac.com/Go2Shell" rel="nofollow">https://zipzapmac.com/Go2Shell</a>](#0-点击finder上的图标即可快速跳转系统终端或者iterm并cd至到当前目录下该软件地址-httpszipzapmaccomgo2shell)
-* [1. 配置Xcode主题,CoderWGB Theme.xccolortheme这个是我配置的,类似于sublime的风格, 配置之后肯定不想到了别的电脑上再配置一遍,很浪费时间的,毕竟时间就是命呐 !!!  Xcode主题文件的存放路径就在~/Library/Developer/Xcode/UserData/FontAndColorThemes/ ,打开找到对应你自己自定义的主题,拷贝出来即可给到别的电脑上使用,也是这个路径.](#1-配置xcode主题coderwgb-themexccolortheme这个是我配置的类似于sublime的风格-配置之后肯定不想到了别的电脑上再配置一遍很浪费时间的毕竟时间就是命呐---xcode主题文件的存放路径就在librarydeveloperxcodeuserdatafontandcolorthemes-打开找到对应你自己自定义的主题拷贝出来即可给到别的电脑上使用也是这个路径)
-* [2. Xcode真机调试包的路径：/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport](#2-xcode真机调试包的路径applicationsxcodeappcontentsdeveloperplatformsiphoneosplatformdevicesupport)
-* [3. 代码块 ~/Library/Developer/Xcode/UserData/CodeSnippets 平时收藏的代码块都是存放在这的, 所以换公司换电脑异或是家里公司代码块同步如同此法,把代码块文件放进这里,重新启动Xcode即可食用。](#3-代码块-librarydeveloperxcodeuserdatacodesnippets-平时收藏的代码块都是存放在这的-所以换公司换电脑异或是家里公司代码块同步如同此法把代码块文件放进这里重新启动xcode即可食用)
-* [4. 显示Mac键盘操作动作指令的一个小工具 <a href="https://github.com/keycastr/keycastr">前往地址</a>](#4-显示mac键盘操作动作指令的一个小工具-前往地址)
-* [5. 获取ipa文件里.car里的图片资源](#5-获取ipa文件里car里的图片资源)
-* [6. Xcode热重载插件(目前只适用于模拟器),提高开发效率的工具InjectionIII（作者Xcode 10以上不再维护OC版本了）<a href="https://github.com/johnno1962/InjectionIII/releases">可使用最新的swift版本</a>](#6-xcode热重载插件目前只适用于模拟器提高开发效率的工具injectioniii作者xcode-10以上不再维护oc版本了可使用最新的swift版本)
-* [7. 在线图片压缩工具<a href="https://imageoptim.com/mac" rel="nofollow">无损压缩工具imageoptim</a> 和 <a href="https://tinypng.com/" rel="nofollow">PNG压缩工具</a> 以及<a href="https://github.com/tinymind/LSUnusedResources">移除iOS项目无用图片工具</a>](#7-在线图片压缩工具无损压缩工具imageoptim-和-png压缩工具-以及移除ios项目无用图片工具)
-* [8. <a href="https://www.json.cn/" rel="nofollow">json在线格式化工具</a> 和 <a href="http://modelend.com/" rel="nofollow">json转model在线工具</a>](#8-json在线格式化工具-和-json转model在线工具)
-* [9. <a href="https://icon.wuruihong.com" rel="nofollow">给定一张1024x1024的大图一键生成app的logo</a>](#9-给定一张1024x1024的大图一键生成app的logo)
-* [10. <a href="http://asciiflow.com/" rel="nofollow">在线绘制ASCi流程图</a>](#10-在线绘制asci流程图)
-* [11. <a href="https://getkap.co/" rel="nofollow">一款不错免费录屏工具Kap</a>](#11-一款不错免费录屏工具kap)
-* [12. <a href="http://coffeeipsum.com/" rel="nofollow">coffeeipsum</a> 一个自动生成英文文章的网站](#12-coffeeipsum-一个自动生成英文文章的网站)
-* [13. 记录获取网络ip的两个地址 <a href="https://icanhazip.com" rel="nofollow">https://icanhazip.com</a> 和 <a href="http://ifconfig.me/ip" rel="nofollow">http://ifconfig.me/ip</a>](#13-记录获取网络ip的两个地址-httpsicanhazipcom-和-httpifconfigmeip)
-* [14. 统计当前目录下(iOS)的代码行数的shell命令,搭配 <a href="https://zipzapmac.com/Go2Shell" rel="nofollow">Go2Shell</a>食用更佳](#14-统计当前目录下ios的代码行数的shell命令搭配-go2shell食用更佳)
-* [15. 防止甩锅(<strong>git blame代码记录查询命令,blame字面意思是责怪，指责，怪...</strong>) 搭配 <a href="https://zipzapmac.com/Go2Shell" rel="nofollow">Go2Shell</a>食用更佳](#15-防止甩锅git-blame代码记录查询命令blame字面意思是责怪指责怪-搭配-go2shell食用更佳)
-* [16. <a href="https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Google书签/README.md"> 平时使用的Google书签 </a>](#16--平时使用的google书签-)
-* [17. 一款统计键盘鼠标敲击次数的mac应用 <a href="https://zhuanlan.zhihu.com/p/21787949" rel="nofollow">中文教程</a>  <a href="https://github.com/KonsomeJona/OctoMouse/releases">下载地址</a>](#17-一款统计键盘鼠标敲击次数的mac应用-中文教程--下载地址)
-* [18. 部署Xcode项目临时模板 点击 <a href="./自定义Xcode顶部描述信息/README.md">自定义Xcode顶部描述信息</a>](#18-部署xcode项目临时模板-点击-自定义xcode顶部描述信息)
-* [19. <a href="https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Shell/README.md">shell脚本集合</a>](#19-shell脚本集合)
-* [20. <a href="https://github.com/avibrazil/RDM">Mac调整屏幕分辨率工具</a>](#20-mac调整屏幕分辨率工具)
-* [21. <a href="https://www.wtfautolayout.com/" rel="nofollow">约束警告排查</a>](#21-约束警告排查)
-* [22. <a href="https://docsify.js.org/#/zh-cn/quickstart" rel="nofollow">文档部署工具docsify</a>  需要repo本地根目录先创建docs文件夹,git-pages里的master branch/docs folder选项才能被选择 <a href="https://juejin.im/post/5b14b2f06fb9a01e5e3d3121" rel="nofollow">https://juejin.im/post/5b14b2f06fb9a01e5e3d3121</a>](#22-文档部署工具docsify--需要repo本地根目录先创建docs文件夹git-pages里的master-branchdocs-folder选项才能被选择-httpsjuejinimpost5b14b2f06fb9a01e5e3d3121)
-* [23. <a href="https://github.com/dwarvesf/hidden">MacOS 状态栏隐藏工具</a>](#23-macos-状态栏隐藏工具)
-* [24. <a href="https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/git使用记录/README.md">平时git使用的记录</a>](#24-平时git使用的记录)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+- [iOS相关](#ios)
+- [Mac终端相关](#mac)
+- [图片处理](#image)
+- [json工具](#json)
+- [文档工具](#doc)
+- [奇技淫巧](#other)
 
 
 
 
-平时可能会用上的一些效率工具及配置,存放于此 
-(基于`Alfred`的`workflows`, `vim`的配置文件,`zsh`的配置文件,`Xcode`主题配置)
+<h3 id="ios"> iOS相关 </h3>
 
-#### 0. 点击`finder`上的图标即可快速跳转系统终端或者`iTerm`并`cd`至到当前目录下,该软件地址 https://zipzapmac.com/Go2Shell
-
-#### 1. 配置Xcode主题,`CoderWGB Theme.xccolortheme`这个是我配置的,类似于`sublime`的风格, 配置之后肯定不想到了别的电脑上再配置一遍,很浪费时间的,毕竟时间就是命呐 !!!  Xcode主题文件的存放路径就在`~/Library/Developer/Xcode/UserData/FontAndColorThemes/` ,打开找到对应你自己自定义的主题,拷贝出来即可给到别的电脑上使用,也是这个路径. 
-
-#### 2. Xcode真机调试包的路径：`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport` 
-   [调试包资源](https://github.com/iGhibli/iOS-DeviceSupport) 或者 在`github`搜关键词`DeviceSupport` 
-   [click me](https://github.com/search?utf8=%E2%9C%93&q=DeviceSupport&ref=simplesearch)
-
-#### 3. 代码块 `~/Library/Developer/Xcode/UserData/CodeSnippets` 平时收藏的代码块都是存放在这的, 所以换公司换电脑异或是家里公司代码块同步如同此法,把代码块文件放进这里,重新启动`Xcode`即可食用。
-
-#### 4. 显示Mac键盘操作动作指令的一个小工具 [前往地址](https://github.com/keycastr/keycastr) 
-
-#### 5. 获取ipa文件里.car里的图片资源
-
-a.   [cartool](<https://github.com/steventroughtonsmith/cartool>)   做个轮子用的人比较多,但是新版本的系统没有兼容,会crash之类的导致无法顺畅的使用,后来发现有网友修复了[查看#26](<https://github.com/steventroughtonsmith/cartool/pull/26/commits/93c1cedd304bb4b4ad987bb1be10e453536b9300>) , 需要加上一些代码兼容才能使用 (本仓库里有修复版本`cartool-master-fixed-Mojave-version`可以直接使用)
-
-b. [AssetCatalogTinkerer](<https://github.com/insidegui/AssetCatalogTinkerer>) 这个轮子有人在维护,所以他目前是可以使用的, 傻瓜式的GUI,这个用起来比较爽,支持图片名模糊搜索,找到想要的直接拖拽出来,也可以批量全部导出, 但是唯一的缺点就是拖拽出来的图片.car里面还是会有一份,实际上是拖拽仅仅是拷贝出来的一份而已
-
-#### 6. Xcode热重载插件(`目前只适用于模拟器`),提高开发效率的工具`InjectionIII`（作者Xcode 10以上不再维护OC版本了）[可使用最新的swift版本](https://github.com/johnno1962/InjectionIII/releases)
-
-#### 7. 在线图片压缩工具[无损压缩工具imageoptim](https://imageoptim.com/mac) 和 [PNG压缩工具](https://tinypng.com/) 以及[移除iOS项目无用图片工具](https://github.com/tinymind/LSUnusedResources) [喵神的Fengniao命令行工具](https://github.com/onevcat/FengNiao)还有 [fdupes移除重复资源命令行工具](https://github.com/adrianlopezroche/fdupes)
-
-#### 8. [json在线格式化工具](https://www.json.cn/) 和 [json转model在线工具](http://modelend.com/)
-
-#### 9. [给定一张1024x1024的大图一键生成app的logo](https://icon.wuruihong.com)
-
-#### 10. [在线绘制ASCi流程图](http://asciiflow.com/) 
-
-#### 11. [一款不错免费录屏工具Kap](https://getkap.co/) 
-#### 12. [coffeeipsum](http://coffeeipsum.com/) 一个自动生成英文文章的网站
-#### 13. 记录获取网络ip的两个地址 [https://icanhazip.com](https://icanhazip.com) 和 [http://ifconfig.me/ip](http://ifconfig.me/ip) 
+- 统计iOS代码行数
+```bash
+find . "(" -name "*.h" -or -name "*.mm" -or -name "*.m" -or -name "*.swift" ")" -print | xargs wc -l 
+```
 
 <details>
-<summary>示例</summary>
-  <pre style="background-color:black;color:white;"> <span style="color:red;" >objc</span> <br/> <span style="color:rgb(220,132,251);">NSURL</span> *ipURL = [<span style="color:rgb(220,132,251);">NSURL URLWithString</span>:@"<span style="color:rgb(237,223,137);">http://ifconfig.me/ip</span>"];
-    <span style="color:rgb(220,132,251);">NSString</span> *IPStr = [<span style="color:rgb(220,132,251);">NSString stringWithContentsOfURL</span>:ipURL <span style="color:rgb(220,132,251);">encoding</span>:<span style="color:rgb(220,132,251);">NSUTF8StringEncoding error</span>:nil]; 
-</pre>
+<summary> 配置Xcode主题 </summary>
+  在./Xcode Theme里是一些收集的主题,其中
+CoderWGB Theme.xccolortheme这个是我配置的,类似于sublime的风格, 配置之后肯定不想到了别的电脑上再配置一遍,很浪费时间的,毕竟时间就是命呐 !!!  Xcode主题文件的存放路径就在~/Library/Developer/Xcode/UserData/FontAndColorThemes/ ,打开找到对应你自己自定义的主题,拷贝出来即可给到别的电脑上使用,也是这个路径.
+  当然能用脚本实现更加科学咯,可参考这个项目 <a href="https://github.com/hdoria/xcode-themes">https://github.com/hdoria/xcode-themes</a>
 </details>
-
-#### 14. 统计当前目录下(iOS)的代码行数的shell命令,搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
 
 <details>
-<summary>查看命令</summary>
-  <pre style="background-color:black;color:white;"> <br/> <span style="color:rgb(28, 232, 132);"> find</span> . <span style="color:rgb(201,196,46);">"("</span> -name <span style="color:rgb(201,196,46);">"*.h"</span> -or -name <span style="color:rgb(201,196,46);">"*.mm"</span> -or -name <span style="color:rgb(201,196,46);">"*.m"</span> -or -name <span style="color:rgb(201,196,46);">"*.swift"</span> <span style="color:rgb(201,196,46);">")"</span> -print | <span style="color:rgb(28, 232, 132);">xargs</span> wc -l <br/>
-</pre>
+<summary> 代码块 </summary>
+ ~/Library/Developer/Xcode/UserData/CodeSnippets 平时收藏的代码块都是存放在这的, 所以换公司换电脑异或是家里公司代码块同步如同此法,把代码块文件放进这里,重新启动Xcode即可食用。也可使用脚本来管理关联代码块,例如这个项目<a href="https://github.com/FantasticLBP/codesnippets">https://github.com/FantasticLBP/codesnippets</a>
 </details>
-
-![](./_media/code_total.png)
-
-#### 15. 防止甩锅(**`git blame`代码记录查询命令,`blame`字面意思是责怪，指责，怪...**) 搭配 [Go2Shell](https://zipzapmac.com/Go2Shell)食用更佳
 
 <details>
-<summary>查看命令</summary>
-<pre style="background-color:black;color:white;">
-  <br/>
-  git blame -L 22,30 Example.m <span style="color:rgb(28, 232, 132);"> # 替换具体的代码行数和文件名即可</span>
-  <br/>
-</pre>
+<summary> Xcode真机调试包 </summary>
+经常遇到手机系统版本高于Xcode SDK版本,导致无法调试,需要下载调试包兼容.
+Xcode真机调试包的路径：`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport`, 
+可在 github 搜关键词 DeviceSupport 
+  <p>调试包资源 <a href="https://github.com/iGhibli/iOS-DeviceSupport">https://github.com/iGhibli/iOS-DeviceSupport</a> </p>
+   或者  <span>点击搜索 <a href="https://github.com/search?utf8=%E2%9C%93&q=DeviceSupport&ref=simplesearch">https://github.com/search?utf8=%E2%9C%93&q=DeviceSupport&ref=simplesearch</a> </span>
 </details>
 
+<details>
+<summary> 获取IPA里.car文件里的图片资源 </summary>
+1. <a href="https://github.com/steventroughtonsmith/cartool">cartool</a>  做个轮子用的人比较多,但是新版本的系统没有兼容,会crash之类的导致无法顺畅的使用,后来发现有网友修复了查看<a href="https://github.com/steventroughtonsmith/cartool/pull/26/commits/93c1cedd304bb4b4ad987bb1be10e453536b9300">issues#26</a> , 需要加上一些代码兼容才能使用 (本仓库里有修复版本cartool-master-fixed-Mojave-version可以直接使用)
+
+2. <a href="https://github.com/insidegui/AssetCatalogTinkerer">AssetCatalogTinkerer</a> 这个轮子有人在维护,所以他目前是可以使用的, 傻瓜式的GUI,这个用起来比较爽,支持图片名模糊搜索,找到想要的直接拖拽出来,也可以批量全部导出, 但是唯一的缺点就是拖拽出来的图片.car里面还是会有一份,实际上是拖拽仅仅是拷贝出来的一份而已
+</details>
+
+<details>
+<summary> InjectionIII,Xcode热重载插件 </summary>
+提高开发效率的工具,方便调试UI,目前仅适用于模拟器(真机连局域网听说是可以但没尝试...) <a href="https://github.com/johnno1962/InjectionIII/releases"> InjectionIII </a>
+</details>
+
+- 部署Xcode项目临时模板 点击 [自定义Xcode顶部描述信息](./自定义Xcode顶部描述信息/README.md)
+-  [约束警告排查](https://www.wtfautolayout.com/) 
+- [App隐私政策生成](https://app-privacy-policy-generator.firebaseapp.com/#)
 
 
-#### 16. [ 平时使用的Google书签 ](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Google%E4%B9%A6%E7%AD%BE/README.md)
+<h3 id="mac"> Mac终端相关 </h3>
+<details>
+<summary> keycastr Mac键盘操作动作指令的一个小工具 </summary>
+  显示用户键盘操作指令,常用于录屏教程示范等
+  <a href="https://github.com/keycastr/keycastr">https://github.com/keycastr/keycastr</a>
+</details>
 
-#### 17. 一款统计键盘鼠标敲击次数的mac应用 [中文教程](https://zhuanlan.zhihu.com/p/21787949)  [下载地址](https://github.com/KonsomeJona/OctoMouse/releases) 
+<details>
+<summary> Go2Shell 快速进入终端并cd到当前目录的一款mac目录插件 </summary>
+点击finder上的图标即可快速跳转系统终端或者iTerm并cd至到当前目录下,该软件地址 <a href="https://zipzapmac.com/Go2Shell"> https://zipzapmac.com/Go2Shell </a>
+</details>
 
-#### 18. 部署Xcode项目临时模板 点击 [自定义Xcode顶部描述信息](./自定义Xcode顶部描述信息/README.md)
+- [一款免费的录屏工具Kap](https://getkap.co/) 
+- 一款统计键盘鼠标敲击次数的mac应用 [中文教程](https://zhuanlan.zhihu.com/p/21787949)  [下载地址](https://github.com/KonsomeJona/OctoMouse/releases) 
+-  [Mac调整屏幕分辨率工具](https://github.com/avibrazil/RDM) 
+- [自用shell脚本集合](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Shell/README.md)
+-  [MacOS 状态栏隐藏工具](https://github.com/dwarvesf/hidden)
+- [脑图工具](https://gitmind.cn)
 
-#### 19. [shell脚本集合](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Shell/README.md)
 
-#### 20. [Mac调整屏幕分辨率工具](https://github.com/avibrazil/RDM) 
 
-#### 21. [约束警告排查](https://www.wtfautolayout.com/) 
+<h3 id="image"> 图片处理 </h3>
 
-#### 22. [文档部署工具docsify](https://docsify.js.org/#/zh-cn/quickstart)  需要repo本地根目录先创建docs文件夹,git-pages里的`master branch/docs folder`选项才能被选择 https://juejin.im/post/5b14b2f06fb9a01e5e3d3121 
+- 无损压缩工具 [imageoptim](https://imageoptim.com/mac)
+- PNG压缩工具 [tinypng](https://tinypng.com/)
+- 移除iOS项目无用图片工具 [LSUnusedResources](https://github.com/tinymind/LSUnusedResources)
+- 喵神的Fengniao命令行工具[FengNiao](https://github.com/onevcat/FengNiao) 
+- fdupes移除重复资源命令行工具 [fdupes](https://github.com/adrianlopezroche/fdupes)
+- [图标工场](https://icon.wuruihong.com)
+- [在线抠图1](https://bgeraser.com/index.html) 
+- [在线抠图2](https://www.remove.bg/zh)
+- [iconfont](https://www.iconfont.cn)
+- [免费图片](https://pixabay.com)
+- [AsciiSignature字符空心字](http://www.kammerl.de/ascii/AsciiSignature.php)
+- [asciiflow字符流程图](http://asciiflow.com/)
+- [asciiworld代码注释各种花样](http://www.asciiworld.com)
+- [在线绘制UML或者流程图](https://app.diagrams.net)
 
-#### 23. [MacOS 状态栏隐藏工具](https://github.com/dwarvesf/hidden)
+<h3 id="json"> json工具 </h3>
 
-#### 24. [平时git使用的记录](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/git%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/README.md)
+- [json在线格式化工具](https://www.json.cn/) 
+- [json转model在线工具](http://modelend.com/) [备用地址](https://soar-coding-life.github.io/json2modelLocalTool/index.html)
 
-#### 25. [一个好用的翻译插件](https://github.com/ripperhe/Bob)
 
-#### 26. [一个开源的图床工具](https://github.com/Molunerfinn/PicGo)
+
+<h3 id="doc"> 文档工具 </h3>
+
+- [文档部署工具docsify](https://docsify.js.org/#/zh-cn/quickstart)  需要repo本地根目录先创建docs文件夹,git-pages里的`master branch/docs folder`选项才能被选择  [参考了文章](https://juejin.im/post/5b14b2f06fb9a01e5e3d3121) 
+- [一个开源的图床工具](https://github.com/Molunerfinn/PicGo)
 ```html
 <!-- 免费的CDN小技巧 https://cdn.jsdelivr.net/gh/<username>/<repoName>/xxx/xxx 真的香~  -->
 ![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/avatar.png)
 ```
+- [markdown工具之mdnice](https://www.mdnice.com)
 
 
+<h3 id="tr"> 翻译工具 </h3>
 
+- [一个好用的翻译插件](https://github.com/ripperhe/Bob)
 
+<h3 id="other"> 奇技淫巧 </h3>
+
+-  [自动生成英文文章](http://coffeeipsum.com/) 
+-  [狗屁不通文章生成器](https://suulnnka.github.io/BullshitGenerator/index.html)
+- [对对联系统](https://ai.binwang.me/couplet/)
+- [微信公众号文章素材提取](http://www.91store.club/?adtag=basic.web.js)
+- [github只下载部分目录的文件](http://zhoudaxiaa.gitee.io/downgit/#/home)
+- [gitzip 下载部分目录(需要token授权)](https://kinolien.github.io/gitzip/)
+- [github文件下载加速](https://shrill-pond-3e81.hunsh.workers.dev)
+- [github仓库点击量统计](http://hits.dwyl.io)
+- [生成svg徽章角标](https://shields.io)
+- [漂亮的代码图片](https://carbon.now.sh)
+- [消除人声获取伴奏](https://vocalremover.org/ch/)
 
 
 
