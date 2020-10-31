@@ -3,26 +3,8 @@
 showMenu() {
 
  echo "/**
- *
- *                    .::::.
- *                  .::::::::.
- *                 :::::::::::  
- *             ..:::::::::::'
- *           '::::::::::::'  美女镇楼 | 永无BUG
- *             .::::::::::
- *        '::::::::::::::..
- *             ..::::::::::::.
- *           ``::::::::::::::::
- *            ::::``:::::::::'        .:::.
- *           ::::'   ':::::'       .::::::::.
- *         .::::'      ::::     .:::::::'::::.
- *        .:::'       :::::  .:::::::::' ':::::.
- *       .::'        :::::.:::::::::'      ':::::.
- *      .::'         ::::::::::::::'         ``::::.
- *  ...:::           ::::::::::::'              ``::.
- * ```` ':.          ':::::::::'                  ::::..
- *                    '.:::::'                    ':'````.. 
- *           	
+ *     
+ *  NO BUG !      	
  * 			
  */"
 	echo "======================================"
@@ -30,7 +12,7 @@ showMenu() {
 	echo "0. 输出 hello world "
 	echo "1. 安装homebrew"
 	echo "2. 安装cocoapods"
-	echo "3. 卸载cocoapods"
+	echo "3. 卸载重装cocoapods"
 	echo "4. 安装oh-my-zsh"
 	echo "5. 安装carthage"
 	echo "6. 日常提交git代码"
@@ -38,6 +20,9 @@ showMenu() {
 	echo "8. git blame查询代码归属人"
 	echo "9. 查询指定路径下iOS代码行数"
 	echo "10. 查询当前网络ip地址"
+	echo "11. 清除终端代理设置"
+	echo "12. 内网穿透,用于外网访问演示预览"
+
 	echo "======================================"
 	
 	read -p "输入选项编号：" number
@@ -75,10 +60,17 @@ showMenu() {
 		10) searchCurrentNetworkIPAddress
 		;;
 
+		11) cleanProxySettings
+		;;
+
+		12) crossNetworkToDingDing
+		;;
+		
 	esac	
 	#递归调用
 	# showMenu
 }
+
 
 helloWorld() {
 	echo "hello wor1d"
@@ -210,6 +202,21 @@ totaliOSCodeRows() {
 
 searchCurrentNetworkIPAddress() {
 	curl http://ifconfig.me/ip
+}
+
+cleanProxySettings(){
+ export http_proxy=""
+ export https_proxy=""
+ export HTTP_PROXY=""
+ export HTTPS_PROXY=""
+ echo "🚀🚀http_proxy已清空~"
+ echo "🚀🚀https_proxy已清空~"
+ echo "🚀🚀HTTP_PROXY已清空~"
+ echo "🚀🚀HTTPS_PROXY已清空~"
+}
+
+crossNetworkToDingDing(){
+	ding -config=/Users/wangguibin/MyShell/ding.cfg -subdomain=coderwgb 8080
 }
 
 ####################################################

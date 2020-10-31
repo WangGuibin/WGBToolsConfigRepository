@@ -1,19 +1,37 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+#设置终端代理映射
+#export http_proxy=socks5://127.0.0.1:1080
+
+#java
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
+
+# android sdk
+export ANDROID_HOME="/Users/wangguibin/Library/Android/sdk" 
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+#go
+export PATH=$PATH:/usr/local/go/bin
 
 #flutter
 export PUB_HOSTED_URL=https://pub.flutter-io.cn #国内用户需要设置
-export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn #国内用户需要设置
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export PATH=/Users/wangguibin/flutter/bin:$PATH
 
+#自用脚本 
+export PATH=/Users/wangguibin/MyShell:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/wangguibin/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
+# 设置zsh主题
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+# 可以自定义主题 存放在`~/.oh-my-zsh/custom/theme/xxx目录下`
+ZSH_THEME="agnoster"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -64,7 +82,9 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+# 配置了一些插件 
 plugins=(
+  brew
   git
   autojump
   history
@@ -129,10 +149,21 @@ export PATH=/usr/local/bin:$PATH
 # mongoDB
 export PATH=/usr/local/Cellar/mongodb/4.0.2/bin:$PATH
 
+#agnoster主题,zsh默认目录是不带颜色的,在.zshrc末尾加上即可
+export CLICOLOR=1
+export LSCOLORS="GxFxCxDxBxegedabagaced"
 
 
 
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+alias python2='/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7'
 
+alias python3='/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6'
 
+alias python=python3
+
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
