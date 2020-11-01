@@ -8,5 +8,8 @@
 #查看效果
 cat /etc/motd
 ```
+## 7. `iconVersion.sh`是打`Debug`包,修改`logo`显示一些版本信息的脚本
+
+
 
 [Shell/配置脚本环境变量访问](https://github.com/WangGuibin/WGBToolsConfigRepository/tree/master/Shell/%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BF%E9%97%AE)
