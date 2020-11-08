@@ -21,7 +21,9 @@ showMenu() {
 	echo "9. 查询指定路径下iOS代码行数"
 	echo "10. 查询当前网络ip地址"
 	echo "11. 清除终端代理设置"
-	echo "12. 内网穿透,用于外网访问演示预览"
+	echo "12. 内网穿透,用于外网访问演示预览(钉钉穿透)"
+	echo "13. 解决MacApp第一次安装打开提示已损坏,移到废纸篓弹窗" 
+	echo "14. 解决MacApp第一次安装打开闪退问题"
 
 	echo "======================================"
 	
@@ -64,6 +66,12 @@ showMenu() {
 		;;
 
 		12) crossNetworkToDingDing
+		;;
+
+		13) fixedAppDestroyed
+		;;
+
+		14) resignMacApp 
 		;;
 		
 	esac	
@@ -217,6 +225,27 @@ cleanProxySettings(){
 
 crossNetworkToDingDing(){
 	ding -config=/Users/wangguibin/MyShell/ding.cfg -subdomain=coderwgb 8080
+}
+
+
+fixedAppDestroyed(){
+	# 修复App已损坏问题
+	read -p "输入MacApp所在路径:(例如:'/Applications/xxx.app') " app_path
+	# MacOS Catalina 打开app 提示已损坏
+	sudo xattr -d com.apple.quarantine app_path
+	echo "🎉🎉🎉 已经修复已损坏打不开的问题,重新打开App尝试🎉🎉🎉"
+	echo "打开 https://xclient.info/a/b4d2370e-f0e0-8011-aa0e-81391ad11d1f.html 了解更多解决方法"
+}
+
+resignMacApp(){
+	# TNT证书问题被苹果删除的原因,导致Mac应用闪退
+	read -p "输入MacApp所在路径:(例如:'/Applications/xxx.app') " app_path
+	# 先移除原有的签名
+	codesign --remove-signature app_path
+	# 签名
+	codesign --force --deep --sign - app_path
+	echo "🎉🎉🎉 已经完成MacApp重签,重新打开尝试吧🎉🎉🎉"
+	echo "打开 https://xclient.info/a/b4d2370e-f0e0-8011-aa0e-81391ad11d1f.html 了解更多解决方法"
 }
 
 ####################################################
