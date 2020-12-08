@@ -66,6 +66,11 @@ Xcode真机调试包的路径：`/Applications/Xcode.app/Contents/Developer/Plat
   <a href="https://github.com/keycastr/keycastr">https://github.com/keycastr/keycastr</a>
 </details>
 
+`rar`解压 `brew install unrar`
+```objc
+unrar x *.rar
+```
+
 <details>
 <summary> Go2Shell 快速进入终端并cd到当前目录的一款mac目录插件 </summary>
 点击finder上的图标即可快速跳转系统终端或者iTerm并cd至到当前目录下,该软件地址 <a href="https://zipzapmac.com/Go2Shell"> https://zipzapmac.com/Go2Shell </a>
