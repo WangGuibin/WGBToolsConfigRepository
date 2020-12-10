@@ -230,7 +230,7 @@ crossNetworkToDingDing(){
 
 fixedAppDestroyed(){
 	# 修复App已损坏问题
-	read -p "输入MacApp所在路径:(例如:'/Applications/xxx.app') " app_path
+	read -p "输入MacApp所在路径:(例如:'/Applications/xxx.app')" app_path
 	# MacOS Catalina 打开app 提示已损坏
 	sudo xattr -d com.apple.quarantine app_path
 	echo "🎉🎉🎉 已经修复已损坏打不开的问题,重新打开App尝试🎉🎉🎉"
@@ -239,7 +239,7 @@ fixedAppDestroyed(){
 
 resignMacApp(){
 	# TNT证书问题被苹果删除的原因,导致Mac应用闪退
-	read -p "输入MacApp所在路径:(例如:'/Applications/xxx.app') " app_path
+	read -p "输入MacApp所在路径:(例如:'/Applications/xxx.app')" app_path
 	# 先移除原有的签名
 	codesign --remove-signature app_path
 	# 签名
