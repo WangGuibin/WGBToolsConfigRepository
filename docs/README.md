@@ -1,4 +1,5 @@
 # WGBToolsConfigRepository
+
 # 此库记录平时用到的一些效率工具以及配置
 
 - [iOS相关](#ios)
@@ -25,7 +26,8 @@ find . "(" -name "*.h" -or -name "*.mm" -or -name "*.m" -or -name "*.swift" ")" 
 <summary> 配置Xcode主题 </summary>
   在./Xcode Theme里是一些收集的主题,其中
 CoderWGB Theme.xccolortheme这个是我配置的,类似于sublime的风格, 配置之后肯定不想到了别的电脑上再配置一遍,很浪费时间的,毕竟时间就是命呐 !!!  Xcode主题文件的存放路径就在~/Library/Developer/Xcode/UserData/FontAndColorThemes/ ,打开找到对应你自己自定义的主题,拷贝出来即可给到别的电脑上使用,也是这个路径.
-  当然能用脚本实现更加科学咯,可参考这个项目 <a href="https://github.com/hdoria/xcode-themes">https://github.com/hdoria/xcode-themes</a>
+  当然能用脚本实现更加科学咯,可参考这个项目 <a href="https://github.com/hdoria/xcode-themes">https://github.com/hdoria/xcode-themes</a><br>
+其中CoderWGB theme 需要安装<a href="https://www.jetbrains.com/lp/mono">jetbrains字体</a>
 </details>
 
 <details>
