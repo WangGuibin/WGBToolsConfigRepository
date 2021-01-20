@@ -12,5 +12,8 @@ cat /etc/motd
 ## 8. `dump_buildsettings.sh` 这个是`dump`出Xcode的环境变量
 ## 9. `剪贴板使用.sh` 记录了关于剪贴板相关的使用
 ## 10. `cut_string.sh`是字符串截取相关的练习
+## 11. `if-else.sh`[关于if的用法](./if-else.sh)
+## 12. `note.sh`[关于applescript脚本通知的用法](./note.sh)
+## 13. `read-writeFile.sh`[关于文件操作的一些用法](./read-writeFile.sh)
 
 [Shell/配置脚本环境变量访问](https://github.com/WangGuibin/WGBToolsConfigRepository/tree/master/Shell/%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BF%E9%97%AE)
