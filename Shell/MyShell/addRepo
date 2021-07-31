@@ -1,0 +1,29 @@
+#! /bin/bash
+# 要求入参为 git远程仓库地址 
+ICON="with icon note"
+REPO_URL=$(
+osascript <<EOF
+display dialog "关联github远程仓库" default answer "请输入仓库git地址" ${ICON} 
+text returned of result
+EOF
+)
+
+if [[ ! -n ${REPO_URL} ]] ; then 
+    exit 0
+fi
+
+if [[ ${REPO_URL} == '请输入仓库git地址' ]] ; then
+  exit 0
+fi 
+
+echo "当前路径: "`pwd`
+echo "输入的github仓库地址: "$REPO_URL
+echo "正在关联远程仓库..."
+git init 
+git add .
+git commit -m "init repo"
+git checkout -b 'main'
+git branch -D 'master'
+git remote add origin  $1 
+git push --force origin
+echo "关联远程仓库成功 🚀 "
