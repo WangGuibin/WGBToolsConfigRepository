@@ -29,11 +29,12 @@ CoderWGB Theme.xccolortheme这个是我配置的,类似于sublime的风格, 配�
   当然能用脚本实现更加科学咯,可参考这个项目 <a href="https://github.com/hdoria/xcode-themes">https://github.com/hdoria/xcode-themes</a><br>
 其中CoderWGB theme 需要安装<a href="https://www.jetbrains.com/lp/mono">jetbrains字体</a>
 </details>
-
 <details>
 <summary> 代码块 </summary>
  ~/Library/Developer/Xcode/UserData/CodeSnippets 平时收藏的代码块都是存放在这的, 所以换公司换电脑异或是家里公司代码块同步如同此法,把代码块文件放进这里,重新启动Xcode即可食用。也可使用脚本来管理关联代码块,例如这个项目<a href="https://github.com/FantasticLBP/codesnippets">https://github.com/FantasticLBP/codesnippets</a>
+目前参考了 https://github.com/tripleCC/TPCXcodeCodeSnippets 增加了sync_to_local.sh和sync_to_remote.sh用于同步和备份,使用方法是这样的,调用sync_to_local.sh 把Xcode的备份到仓库备份目录,把仓库里的移到Xcode配置目录里,调用sync_to_remote.sh则是移除仓库备份 把仓库代码备份再把Xcode的配置同步到仓库,然后push上去,要使用的时候sync_to_local.sh即可 说白了就是一个上传本地配置 一个同步远程配置 
 </details>
+
 
 <details>
 <summary> Xcode真机调试包 </summary>
@@ -139,7 +140,6 @@ unrar x *.rar
 - [生成svg徽章角标](https://shields.io)
 - [漂亮的代码图片](https://carbon.now.sh)
 - [消除人声获取伴奏](https://vocalremover.org/ch/)
-
 
 
 

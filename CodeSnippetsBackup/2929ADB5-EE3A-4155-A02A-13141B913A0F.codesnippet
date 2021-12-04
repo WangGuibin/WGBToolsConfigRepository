@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>enumRuntime</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>  //遍历成员变量[需导入 objc/runtime.h ]
+    unsigned int outCount = 0;
+    // copy出UITextField的所有成员变量名称
+    // 参数一：需要知道哪个类的私有成员，就传入哪个类
+    // 参数二：一个统计类私有成员的变量(传地址)
+Ivar *ivars = class_copyIvarList([&lt;#className#&gt; class], &amp;outCount);
+
+    for (NSInteger i = 0; i &lt; outCount; ++i) {
+        // 遍历取出该类成员变量
+        Ivar ivar = *(ivars + i);
+        NSLog(@"%s", ivar_getName(ivar));
+    }
+
+    // 根据内存管理原则释放指针
+    free(ivars);
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2929ADB5-EE3A-4155-A02A-13141B913A0F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>runtime遍历成员变量</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>runtime遍历成员变量</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

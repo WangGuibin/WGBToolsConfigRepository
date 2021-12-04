@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tab</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITableView *)tableView{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, kNavBarHeight, KWIDTH , KHIGHT-kNavBarHeight) style:UITableViewStylePlain];
+        adjustsScrollViewInsets_NO(_tableView, self);
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+        _tableView.tableHeaderView = [UIView new];
+        _tableView.tableFooterView = [UIView new];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        [self.view addSubview: _tableView];
+    }
+    return _tableView;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7EEC207B-9384-437A-BDDC-D26DF5DB3455</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tableview</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>懒加载tableview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

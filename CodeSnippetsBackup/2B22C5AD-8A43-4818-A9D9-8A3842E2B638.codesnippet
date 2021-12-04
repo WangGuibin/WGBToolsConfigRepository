@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Frame</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface UIView (Frame)
+@property (nonatomic,assign) CGFloat x;
+@property (nonatomic,assign) CGFloat y;
+@property (nonatomic,assign) CGFloat width;
+@property (nonatomic,assign) CGFloat height;
+@end
+
+@implementation UIView (Frame)
+- (CGFloat)x{
+	CGRect rect = self.frame;
+	return rect.origin.x;
+}
+- (CGFloat)y{
+	CGRect rect = self.frame;
+	return rect.origin.y;
+}
+- (CGFloat)width{
+	CGRect rect = self.frame;
+	return rect.size.width;
+}
+
+- (CGFloat)height{
+	CGRect rect = self.frame;
+	return rect.size.height;
+}
+- (void)setX:(CGFloat)x{
+	CGRect rect = self.frame;
+	rect.origin.x = x;
+	self.frame = rect;
+}
+- (void)setY:(CGFloat)y{
+	CGRect rect = self.frame;
+	rect.origin.y = y;
+	self.frame = rect;
+}
+- (void)setWidth:(CGFloat)width{
+	CGRect rect  = self.frame;
+	rect.size.width = width;
+	self.frame = rect;
+}
+- (void)setHeight:(CGFloat)height{
+	CGRect rect = self.frame;
+	rect.size.height = height;
+	self.frame = rect;
+}
+@end
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2B22C5AD-8A43-4818-A9D9-8A3842E2B638</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>frame布局相关</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIViewFrame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

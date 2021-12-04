@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>GETPropertyList</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)propertyCode {
+    
+    // 属性跟字典的key一一对应
+    NSMutableString *codes = [NSMutableString string];
+    // 遍历字典中所有key取出来
+    [self enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        // key:属性名
+        NSString *code;
+        if ([obj isKindOfClass:[NSString class]]) {
+            code = [NSString stringWithFormat:@"@property (nonatomic, copy) NSString *%@;",key];
+        }else if ([obj isKindOfClass:NSClassFromString(@"__NSCFBoolean")]){
+            code = [NSString stringWithFormat:@"@property (nonatomic, assign) BOOL %@;",key];
+        }else if ([obj isKindOfClass:[NSNumber class]]){
+            code = [NSString stringWithFormat:@"@property (nonatomic, assign) NSInteger %@;",key];
+        }else if ([obj isKindOfClass:[NSArray class]]){
+            code = [NSString stringWithFormat:@"@property (nonatomic, strong) NSArray *%@;",key];
+            NSLog(@"----%@列表", key);
+            for (NSDictionary *dict in obj) {
+                if ([dict isKindOfClass:[NSDictionary class]]) {
+                    [dict propertyCode];
+                }
+            }NSLog(@"----%@列表", key);
+        }else if ([obj isKindOfClass:[NSDictionary class]]){
+            code = [NSString stringWithFormat:@"@property (nonatomic, strong) NSDictionary *%@;",key];
+            [(NSDictionary *)obj propertyCode];
+        }
+        [codes appendFormat:@"%@\n",code];
+        
+    }];
+    NSLog(@"%@", codes);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C7AA2D63-21E0-42A9-8552-D6CB6AB053E7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>字典的分类方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>获取属性✍️</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
