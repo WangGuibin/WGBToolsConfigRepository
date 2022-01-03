@@ -1,6 +1,6 @@
 # coding=utf-8
 # 导入相应的python包
-# 调用 python3 dete_blur.py -i "/Users/ex-wangguibin001/Desktop/images/" -r "/Users/ex-wangguibin001/Desktop/resultImages" 即可 桌面上生成图片结果
+# 调用 python3 dete_blur.py -i "/Users/wangguibin/Desktop/images/" -r "/Users/wangguibin/Desktop/resultImages" 即可 桌面上生成图片结果
 
 from imutils import paths
 import argparse

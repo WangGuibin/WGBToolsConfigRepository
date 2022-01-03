@@ -50,4 +50,4 @@ if __name__ == '__main__':
     video_dir = args.video_dir    
     fps = args.fps  # 帧率，每秒钟帧数越多，所显示的动作就会越流畅
     frame2video(im_dir, video_dir, fps)
-    # 调用示例 python3 frame2video.py -f 25 -i '/Users/ex-wangguibin001/Desktop/images/' -v '/Users/ex-wangguibin001/Desktop/test.mp4' 
+    # 调用示例 python3 frame2video.py -f 25 -i '/Users/wangguibin/Desktop/images/' -v '/Users/wangguibin/Desktop/test.mp4' 

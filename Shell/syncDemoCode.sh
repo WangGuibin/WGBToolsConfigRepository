@@ -12,14 +12,14 @@ CURRENT_DIR=`pwd`
 
 #$1 文件名
 function execProcess(){
-FILE_PATH_1="${CURRENT_DIR}/phmmas-ios/PHScreenRecordKit/PHLiveRecordDemo/PHLiveRecordDemo/${1}.m"
-FILE_PATH_2="${CURRENT_DIR}/phmmas-ios/phRecordPodDemo/TestRecordDemo/${1}.m"
-FILE_PATH_3="${CURRENT_DIR}/phmmas-ios/PHRecordFrameworkDemo/PHRecordFrameworkDemo/${1}.m"
+FILE_PATH_1="${CURRENT_DIR}/ios/ScreenRecordKit/LiveRecordDemo/LiveRecordDemo/${1}.m"
+FILE_PATH_2="${CURRENT_DIR}/ios/RecordPodDemo/TestRecordDemo/${1}.m"
+FILE_PATH_3="${CURRENT_DIR}/ios/RecordFrameworkDemo/RecordFrameworkDemo/${1}.m"
 syncCodeAction 
 }
 
 #调用
-files=("ViewController" "PHRecordScreenVideoListViewController" "AppDelegate")
+files=("ViewController" "RecordScreenVideoListViewController" "AppDelegate")
 for file in ${files[*]}; do
 	 execProcess $file
 done

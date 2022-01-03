@@ -29,9 +29,9 @@ if __name__ == '__main__':
     frames_save_path = args.images_path
     if not os.path.exists(frames_save_path):
         os.makedirs(frames_save_path)
-    # videos_path = '/Users/ex-wangguibin001/Desktop/mmas.flv'
-    # frames_save_path = '/Users/ex-wangguibin001/Desktop/images'
+    # videos_path = '/Users/wangguibin/Desktop/mmas.flv'
+    # frames_save_path = '/Users/wangguibin/Desktop/images'
     time_interval = 1  #多少帧保存一次 设置1为每帧都保存 设置2则 隔一帧保存一次
     video2frame(videos_path, frames_save_path, time_interval)
 
-# 调用示例 python3 video2frame.py -v '/Users/ex-wangguibin001/Desktop/mmas.flv' -i '/Users/ex-wangguibin001/Desktop/images'
+# 调用示例 python3 video2frame.py -v '/Users/wangguibin/Desktop/mmas.flv' -i '/Users/wangguibin/Desktop/images'

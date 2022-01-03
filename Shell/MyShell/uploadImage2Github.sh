@@ -1,13 +1,16 @@
 
 filePath=$1
-fileName=`date +%Y%m%d`${filePath##*/}.${1##*.}
-path="仓库具体目录"
+fileName=`date +"%Y_%m_%d_%H:%M:%S"`_${filePath##*/}
+path="目录名可选,无则空字符串"
 repoName="仓库名"
-userName="github用户名"
-github_token="填写你自己的github token"
+userName="用户名"
+github_token=""
+suffix=${filePath##*.}
+branchName="main" #分支名,例如: master,main,dev等
 
-CommitMsg="Mac通过Shell脚本上传了一张图片"$fileName
-Target_Img_URL="https://cdn.jsdelivr.net/gh/$userName/$repoName/$path/"$fileName
+CommitMsg="MacBook Pro通过Shell脚本上传了一个${suffix}文件: "$fileName
+Target_Img_URL="https://cdn.jsdelivr.net/gh/$userName/$repoName@${branchName}/$path/"$fileName
+
 
 Base64_Content=$(base64 -b 0 $filePath)  
 API_URL="https://api.github.com/repos/$userName/$repoName/contents/$path/"${fileName}
@@ -25,4 +28,8 @@ IsUpload=`echo $result | grep "committer"`
 if [[ -n "$IsUpload" ]]; then
 	echo $Target_Img_URL | pbcopy
 	osascript -e "display notification \"$Target_Img_URL\" with title \"通知\" subtitle \"上传成功,地址已拷贝至剪贴板\""
+
+else
+	echo $result | pbcopy
+	osascript -e "display notification \"哎呀,出错啦~\" with title \"通知\" subtitle \"上传失败,请求结果已拷贝至剪贴板\""
 fi
