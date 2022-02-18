@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "JSON格式化插件😝",
+	"version": "1.0.0",
+	"description": "这是一个插件😝",
+	"author": "𝘾𝙤𝙙𝙚𝙧𝙒𝙂𝘽",
+	"icons": {
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"content-script.js"
+			]
+		}
+	],
+	"web_accessible_resources": [
+		"inject.js"
+	]
+}

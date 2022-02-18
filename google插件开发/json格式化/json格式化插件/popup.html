@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>JSON格式化工具</title>
+    <style>
+        .tab-bg {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+
+        .btn {
+            box-shadow: 2px 2px 3px #999;
+            margin-left: 20px;
+            background: linear-gradient(90deg, #ff5511, #ff0000);
+            color: white;
+            font-size: 15px;
+            border-radius: 20px;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        #copy-btn {
+            width: 180px;
+        }
+
+        .text-bg {
+            margin-top: 30px;
+            margin-left: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+
+        .input-text {
+            margin-left: 30px;
+            resize: none;
+        }
+
+        .oupt-bg {
+            overflow: scroll;
+            border: 1px solid #11ee66;
+            width: 262px;
+            height: 456px;
+        }
+
+        #mid-arrow {
+            height: 456px;
+            line-height: 456px;
+            width: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="margin-left: 30px;">json格式化</h2>
+    <div class="tab-bg">
+        <div class="btn" id="nowarp">不换行</div>
+        <div class="btn" id="two-space">两个空格</div>
+        <div class="btn" id="four-space">四个空格</div>
+        <div class="btn" id="copy-btn">一键复制格式化结果</div>
+    </div>
+
+    <div class="text-bg">
+        <textarea class="input-text" name="origin-text" id="input" cols="30" rows="30" placeholder="原文本"> </textarea>
+        <span id="mid-arrow"> => </span>
+        <div class="oupt-bg">
+            <pre><code id="output"></code></pre>
+        </div>
+    </div>
+    <script type="text/javascript" src="popup.js"></script>
+</body>
+
+</html>
