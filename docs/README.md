@@ -9,18 +9,15 @@
 - [文档工具](#doc)
 - [奇技淫巧](#other)
 
-
-
-
-
 <h3 id="ios"> iOS相关 </h3>
 
 [Xcode快捷键操作](../Xcode快捷键操作.md)
 
 - 统计iOS代码行数
-```bash
-find . "(" -name "*.h" -or -name "*.mm" -or -name "*.m" -or -name "*.swift" ")" -print | xargs wc -l 
-```
+  
+  ```bash
+  find . "(" -name "*.h" -or -name "*.mm" -or -name "*.m" -or -name "*.swift" ")" -print | xargs wc -l 
+  ```
 
 <details>
 <summary> 配置Xcode主题 </summary>
@@ -34,7 +31,6 @@ CoderWGB Theme.xccolortheme这个是我配置的,类似于sublime的风格, 配�
  ~/Library/Developer/Xcode/UserData/CodeSnippets 平时收藏的代码块都是存放在这的, 所以换公司换电脑异或是家里公司代码块同步如同此法,把代码块文件放进这里,重新启动Xcode即可食用。也可使用脚本来管理关联代码块,例如这个项目<a href="https://github.com/FantasticLBP/codesnippets">https://github.com/FantasticLBP/codesnippets</a>
 目前参考了 https://github.com/tripleCC/TPCXcodeCodeSnippets 增加了sync_to_local.sh和sync_to_remote.sh用于同步和备份,使用方法是这样的,调用sync_to_local.sh 把Xcode的备份到仓库备份目录,把仓库里的移到Xcode配置目录里,调用sync_to_remote.sh则是移除仓库备份 把仓库代码备份再把Xcode的配置同步到仓库,然后push上去,要使用的时候sync_to_local.sh即可 说白了就是一个上传本地配置 一个同步远程配置 
 </details>
-
 
 <details>
 <summary> Xcode真机调试包 </summary>
@@ -50,7 +46,8 @@ Xcode真机调试包的路径：`/Applications/Xcode.app/Contents/Developer/Plat
 1. <a href="https://github.com/steventroughtonsmith/cartool">cartool</a>  做个轮子用的人比较多,但是新版本的系统没有兼容,会crash之类的导致无法顺畅的使用,后来发现有网友修复了查看<a href="https://github.com/steventroughtonsmith/cartool/pull/26/commits/93c1cedd304bb4b4ad987bb1be10e453536b9300">issues#26</a> , 需要加上一些代码兼容才能使用 (本仓库里有修复版本cartool-master-fixed-Mojave-version可以直接使用)
 
 2. <a href="https://github.com/insidegui/AssetCatalogTinkerer">AssetCatalogTinkerer</a> 这个轮子有人在维护,所以他目前是可以使用的, 傻瓜式的GUI,这个用起来比较爽,支持图片名模糊搜索,找到想要的直接拖拽出来,也可以批量全部导出, 但是唯一的缺点就是拖拽出来的图片.car里面还是会有一份,实际上是拖拽仅仅是拷贝出来的一份而已
-</details>
+   
+   </details>
 
 <details>
 <summary> InjectionIII,Xcode热重载插件 </summary>
@@ -58,9 +55,8 @@ Xcode真机调试包的路径：`/Applications/Xcode.app/Contents/Developer/Plat
 </details>
 
 - 部署Xcode项目临时模板 点击 [自定义Xcode顶部描述信息](./自定义Xcode顶部描述信息/README.md)
--  [约束警告排查](https://www.wtfautolayout.com/) 
+- [约束警告排查](https://www.wtfautolayout.com/) 
 - [App隐私政策生成](https://app-privacy-policy-generator.firebaseapp.com/#)
-
 
 <h3 id="mac"> Mac终端相关 </h3>
 <details>
@@ -70,6 +66,7 @@ Xcode真机调试包的路径：`/Applications/Xcode.app/Contents/Developer/Plat
 </details>
 
 `rar`解压 `brew install unrar`
+
 ```objc
 unrar x *.rar
 ```
@@ -81,12 +78,10 @@ unrar x *.rar
 
 - [一款免费的录屏工具Kap](https://getkap.co/) 
 - 一款统计键盘鼠标敲击次数的mac应用 [中文教程](https://zhuanlan.zhihu.com/p/21787949)  [下载地址](https://github.com/KonsomeJona/OctoMouse/releases) 
--  [Mac调整屏幕分辨率工具](https://github.com/avibrazil/RDM) 
+- [Mac调整屏幕分辨率工具](https://github.com/avibrazil/RDM) 
 - [自用shell脚本集合](https://github.com/WangGuibin/WGBToolsConfigRepository/blob/master/Shell/README.md)
--  [MacOS 状态栏隐藏工具](https://github.com/dwarvesf/hidden)
+- [MacOS 状态栏隐藏工具](https://github.com/dwarvesf/hidden)
 - [脑图工具](https://gitmind.cn)
-
-
 
 <h3 id="image"> 图片处理 </h3>
 
@@ -110,18 +105,16 @@ unrar x *.rar
 - [json在线格式化工具](https://www.json.cn/) 
 - [json转model在线工具](http://modelend.com/) [备用地址](https://soar-coding-life.github.io/json2modelLocalTool/index.html)
 
-
-
 <h3 id="doc"> 文档工具 </h3>
 
 - [文档部署工具docsify](https://docsify.js.org/#/zh-cn/quickstart)  需要repo本地根目录先创建docs文件夹,git-pages里的`master branch/docs folder`选项才能被选择  [参考了文章](https://juejin.im/post/5b14b2f06fb9a01e5e3d3121) 
 - [一个开源的图床工具](https://github.com/Molunerfinn/PicGo)
-```html
-<!-- 免费的CDN小技巧 https://cdn.jsdelivr.net/gh/<username>/<repoName>/xxx/xxx 真的香~  -->
-![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/avatar.png)
-```
+  
+  ```html
+  <!-- 免费的CDN小技巧 https://cdn.jsdelivr.net/gh/<username>/<repoName>/xxx/xxx 真的香~  -->
+  ![](https://cdn.jsdelivr.net/gh/WangGuibin/MyFilesRepo/images/avatar.png)
+  ```
 - [markdown工具之mdnice](https://www.mdnice.com)
-
 
 <h3 id="tr"> 翻译工具 </h3>
 
@@ -129,8 +122,8 @@ unrar x *.rar
 
 <h3 id="other"> 奇技淫巧 </h3>
 
--  [自动生成英文文章](http://coffeeipsum.com/) 
--  [狗屁不通文章生成器](https://suulnnka.github.io/BullshitGenerator/index.html)
+- [自动生成英文文章](http://coffeeipsum.com/) 
+- [狗屁不通文章生成器](https://suulnnka.github.io/BullshitGenerator/index.html)
 - [对对联系统](https://ai.binwang.me/couplet/)
 - [微信公众号文章素材提取](http://www.91store.club/?adtag=basic.web.js)
 - [github只下载部分目录的文件](http://zhoudaxiaa.gitee.io/downgit/#/home)
@@ -140,8 +133,3 @@ unrar x *.rar
 - [生成svg徽章角标](https://shields.io)
 - [漂亮的代码图片](https://carbon.now.sh)
 - [消除人声获取伴奏](https://vocalremover.org/ch/)
-
-
-
-
-
