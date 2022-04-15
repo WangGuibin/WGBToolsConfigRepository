@@ -2,7 +2,7 @@
 //  main.m
 //  LinkMapConvertToTable
 //
-//  Created by 王贵彬(WANGGUIBIN) on 2022/4/7.
+//  Created by 王贵彬(EX-WANGGUIBIN001) on 2022/4/7.
 //
 
 #import <Foundation/Foundation.h>
@@ -27,6 +27,12 @@ NSInteger getStrIndex(NSString *originStr){
     return index;
 }
 
+NSString * getNumber(NSString *str){
+    return [str substringToIndex:str.length-1];
+}
+
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -40,6 +46,7 @@ int main(int argc, const char * argv[]) {
         [formatStrM appendString:@"| ---- | ---- |\n"];
 
         NSString *allSize = nil;
+        float totalSize = 0.0f;
         
         for (NSString *row in rowArr) {
             NSInteger index = getStrIndex(row) + 1;
@@ -49,6 +56,11 @@ int main(int argc, const char * argv[]) {
                     allSize = [row stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
                 }else if (row.length > index ) {
                     NSString *left = [[row substringToIndex:index] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+                    if ([left containsString:@"M"]) {
+                        totalSize += ([getNumber(left) floatValue] *1000);
+                    }else{
+                        totalSize += [getNumber(left) floatValue];
+                    }
                     NSString *right = [[row substringFromIndex:index] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
                     NSLog(@"%@ - %@",left,right);
                     [formatStrM appendFormat:@"| %@ | %@ |\n",left,right];
@@ -56,7 +68,7 @@ int main(int argc, const char * argv[]) {
             }
          }
         [formatStrM appendString:@"\n"];
-        [formatStrM appendFormat:@"**%@**",allSize];
+        [formatStrM appendFormat:@"**%@ (%.2fK)**",allSize,totalSize];
         NSString *path = [NSHomeDirectory() stringByAppendingFormat:@"/Desktop/linkMap.md"];
         [[formatStrM dataUsingEncoding:NSUTF8StringEncoding] writeToFile:path atomically:YES];
     }
