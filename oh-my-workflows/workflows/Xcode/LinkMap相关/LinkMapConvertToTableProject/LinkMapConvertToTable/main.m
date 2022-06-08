@@ -1,10 +1,3 @@
-//
-//  main.m
-//  LinkMapConvertToTable
-//
-//  Created by 王贵彬(EX-WANGGUIBIN001) on 2022/4/7.
-//
-
 #import <Foundation/Foundation.h>
 
 NSInteger getStrIndex(NSString *originStr){
