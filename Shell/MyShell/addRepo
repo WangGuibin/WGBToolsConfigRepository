@@ -18,7 +18,7 @@ fi
 
 echo "当前路径: "`pwd`
 echo "输入的github仓库地址: "$REPO_URL
-
+echo "正在关联远程仓库..."
 git init 
 git add .
 git commit -m "init repo"
@@ -26,4 +26,4 @@ git checkout -b 'main'
 git branch -D 'master'
 git remote add origin  $REPO_URL 
 git push --force origin
-
+echo "关联远程仓库成功 🚀 "

@@ -1,0 +1,11 @@
+# !/bin/sh
+
+MATCH_Prefix='https://github.com/'
+URL_Prefix='https://cdn.jsdelivr.net/gh/'
+URL=$1
+RES=${URL_Prefix}${URL: ${#MATCH_Prefix}}
+FILE_URL=${RES%blob*}${RES#*blob/*/}
+echo $FILE_URL
+open -a "/Applications/Safari.app" $FILE_URL
+curl -o ~/Desktop/${FILE_URL##*/} $FILE_URL
+echo "🚀🚀已成功下载至桌面🍻🍻"
