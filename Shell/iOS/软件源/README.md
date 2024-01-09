@@ -1,0 +1,22 @@
+# IPA-for-self
+支持巨魔或者自签
+https://github.com/WangGuibin/IPA-for-self
+
+生成ipa的配置,编辑ipa的地址,图标放到icons目录下(注意图标名字与App名字保持一致 png格式)
+
+```bash
+sh ipa ipaParse.sh xxx.ipa 
+
+```
+
+编辑好之后合并配置
+
+```bash
+sh merge.sh
+```
+
+订阅源
+
+```bash
+https://cdn.jsdelivr.net/gh/WangGuibin/IPA-for-self@main/ipa.json
+```
